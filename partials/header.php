@@ -87,7 +87,7 @@
                                             <li><a href="about-school.php">About The School</a></li>
                                             <li><a href="advisory-board.php">Advisory Board</a></li>
                                             <li><a href="academic-links.php">Academic Links</a></li>
-                                            <li><a href="#">Staffs</a></li>
+                                            <li><a href="jpgsph-staffs.php">JPGSPH Staffs</a></li>
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu education-color">
