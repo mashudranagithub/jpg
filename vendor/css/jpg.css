@@ -1,0 +1,3084 @@
+/*********************************************
+**********************************************
+				Index of Styles
+**********************************************
+**********************************************/
+
+/*
+1. Common CSS Styles
+2. Header CSS Styles
+3. Slider & Block Menu Styles
+4. 
+*/
+
+/*********************************************
+1. Common CSS Styles
+**********************************************/
+img{
+	max-width: 100%;
+    transition:all 0.5s;
+}
+
+h2,
+h3,
+h4,
+h2 a,
+h3 a,
+h4 a {
+    font-weight: 700;
+    color: #4b4b4b;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+input.form-control:focus,
+input:hover,
+input:focus-within {
+    outline:none;
+    box-shadow: none;
+}
+
+ul{
+	margin: 0px;
+    padding: 0px;
+}
+
+
+li{
+	list-style: none;
+	margin:0;
+	display: inline-block;
+}
+
+li a:hover{
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	overflow-x: hidden;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a.btn.btn-jpg {
+    border: 2px solid #da6727;
+    border-radius: 3px;
+    font-weight: 900;
+    color: #da6727;
+    background: transparent;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    min-width: 140px;
+    min-height: 45px;
+    line-height: 41px;
+    padding: 0;
+}
+
+a.btn.btn-archive {
+    padding: 0;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-top:15px;
+    position: absolute;
+    right: 0;
+    color: #757575;
+}
+
+button, a.btn.btn-jpg,
+button:focus, a.btn.btn-jpg:focus,
+button:focus-within, a.btn.btn-jpg:focus-within,
+button:active, a.btn.btn-jpg:active {
+    box-shadow: none;
+    /*border:none;*/
+    outline: none;
+}
+
+#Training a.btn.btn-jpg {
+    color: #38948d;
+    border: 2px solid #38948d;
+}
+
+#Training a.btn.btn-jpg:hover,
+#Training a.btn.btn-jpg:focus {
+    background: #38948d !important;
+}
+
+#Advocacy a.btn.btn-jpg {
+    color: #802988;
+    border: 2px solid #802988;
+}
+
+#Advocacy a.btn.btn-jpg:hover,
+#Advocacy a.btn.btn-jpg:focus {
+    background: #802988 !important;
+}
+
+#Research a.btn.btn-jpg {
+    color: #27aae1;
+    border: 2px solid #27aae1;
+}
+
+#Research a.btn.btn-jpg:hover,
+#Research a.btn.btn-jpg:focus {
+    background: #27aae1 !important;
+}
+
+#Education a.btn.btn-jpg:hover,
+#Training a.btn.btn-jpg:hover,
+#Advocacy a.btn.btn-jpg:hover,
+#Research a.btn.btn-jpg:hover,
+#Education a.btn.btn-jpg:focus,
+#Training a.btn.btn-jpg:focus,
+#Advocacy a.btn.btn-jpg:focus,
+#Research a.btn.btn-jpg:focus,
+#Education a.btn.btn-jpg:active,
+#Training a.btn.btn-jpg:active,
+#Advocacy a.btn.btn-jpg:active,
+#Research a.btn.btn-jpg:active,
+a.btn.btn-jpg:hover,
+a.btn.btn-jpg:focus,
+a.btn.btn-jpg:active {
+    /*letter-spacing: 0.05rem;*/
+    background: #da6727;
+    color: #fff;
+}
+
+.delay-05s{animation-delay:0.5s;}
+.delay-02s{animation-delay:0.2s;}
+.delay-04s{animation-delay:0.4s;}
+.delay-08s{animation-delay:0.8s;}
+.delay-12s{animation-delay:1.2s;}
+.delay-15s{animation-delay:1.5s;}
+.delay-25s{animation-delay:2.5s;}
+
+
+
+#top {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    /*display: none !important;*/
+    background: #373a4c;
+    padding: 1px 7px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+/*Header*/
+
+/*Sticky Menu*/
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+}
+
+header .header-main.sticky {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0px 0px 1px 0px #da6727;
+    height:auto;
+    transition: all 2s;
+}
+
+
+
+
+
+#Header{
+	z-index: 9;
+}
+
+#Header .container{
+	max-width:90vw;
+}
+
+
+
+.header-top {
+    box-shadow: 0px 0px 2px 0px #ddd;
+    background: #151f25;
+}
+
+ul.topbar-menu {
+    display: inline-flex;
+}
+
+ul.topbar-menu li {
+    margin-left: 35px;
+}
+
+ul.topbar-menu li a {
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    line-height: 40px;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+}
+
+ul.topbar-menu li a:hover {
+    color: #da6727;
+}
+
+
+
+.logo {
+    max-height: 100px;
+}
+
+.logo a img {
+    max-height: 90px;
+}
+
+
+/*Menu*/
+
+.header-main {
+    box-shadow: 0 0.5px 0 #ddd;
+}
+
+.header-main nav.navbar {
+    padding: 0;
+}
+
+ul.navbar-nav li{
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+li.first-drop-menu:first-child{
+    box-shadow: -1px 0 0 0 #ddd;
+}
+
+/*ul.navbar-nav li:last-child {
+    padding-right: 0px;
+}*/
+
+ul.navbar-nav li a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #4a4a4a;
+    letter-spacing: 0.02rem;
+    line-height: 100px;
+    display: inline-block;
+
+    text-transform: uppercase;
+}
+
+li.first-drop-menu a:hover {
+    color: #da6727;
+}
+
+
+
+
+/*Dropdown Menu*/
+li.first-drop-menu,
+li.second-drop-menu {
+    position: relative;
+}
+
+ul.first-dropped-menu,
+ul.second-dropped-menu {
+	position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    z-index: 9;
+    /*padding: 10px 0px 15px;*/
+    background: #151f25;
+    border-top: 3px solid #da6727;
+    min-width: 150px;
+    width: max-content;
+    max-width: 320px;
+}
+
+ul.first-dropped-menu li,
+ul.second-dropped-menu li {
+    margin-left: 0px;
+    padding: 0px;
+    display: block;
+    transition: all 0.3s;
+    box-shadow: 0px 1px 0px 0px #4b4b4b;
+}
+
+ul.first-dropped-menu li:last-child,
+ul.second-dropped-menu li:last-child {
+    box-shadow: 0px 1px 0px 0px transparent;
+}
+
+ul.first-dropped-menu li:hover,
+ul.second-dropped-menu li:hover {
+    padding-left: 10px;
+}
+
+ul.topbar-menu li.first-drop-menu ul.first-dropped-menu li:hover a {
+    color: #da6727;
+}
+
+ul.first-dropped-menu li a:hover,
+ul.second-dropped-menu li a:hover {
+    color: #da6727 !important;
+}
+
+.topbar-menu li.first-drop-menu::after{
+    color: #fff;
+}
+
+ul.first-dropped-menu li a,
+ul.second-dropped-menu li a {
+	padding: 5px 40px 5px 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1rem !important;
+    font-weight: 400;
+    line-height: 30px !important;
+}
+
+li.first-drop-menu:hover .first-dropped-menu,
+li.second-drop-menu:hover .second-dropped-menu {
+    display: block;
+}
+
+ul.second-dropped-menu.research {
+	left: -321px;
+    /*top: -13px;*/
+    top: -3px;
+}
+
+ul.second-dropped-menu.research li a {
+    line-height: 25px !important;
+}
+
+ul.second-dropped-menu {
+    left: calc( 100% + 1px );
+    /*top: -13px;*/
+    top: -3px;
+}
+
+ul.first-dropped-menu.last-dropdown {
+    right: -100% !important;
+    left: unset;
+}
+
+/*Dropdown Menu End*/
+
+/*Search Bar*/
+
+.search-bar-container {
+    background: #1d262c;
+}
+
+.search-bar {
+    position: relative;
+    width: 100% !important;
+}
+
+.search-bar input[type=text]{
+    background: transparent !important;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    text-align: center;
+    color: #fff;
+    width: calc( 100% - 120px );
+    float: left;
+}
+
+.search-bar input[type=text]::placeholder{
+    color: #fff;
+}
+
+.search-bar button[type=search] {
+    line-height: 36px;
+    padding: 0px 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    width: 112px;
+    float: right;
+    background: none;
+
+
+}
+
+
+
+/*Slider Section*/
+
+section#Slider {
+    max-height: calc( 100vh - 189px );
+    overflow: hidden;
+}
+
+#Slider .main-slider {
+	width: 100%;
+    max-height: calc( 100vh - 189px );
+	overflow:hidden;
+}
+
+.main-slider .swiper-wrapper {
+    height: calc( 100vh - 189px );
+}
+
+#Slider .main-slider img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #da6727;
+    opacity: 0.5;
+    outline: none;
+}
+
+span.swiper-button-next {
+    right: 0;
+}
+
+span.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    opacity: 1;
+}
+
+.swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 2px solid #fff;
+    opacity: 1;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.slider-text-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: linear-gradient(to right, rgba(0, 0, 0, 0.7), transparent);*/
+}
+
+.slider-text {
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    min-height: max-content;
+    width: 1050px;
+    color: #fff;
+}
+
+.slider-text h3 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 65px;
+}
+
+.slider-text p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.slider-text h3,
+.slider-text p {
+    background: rgba(21, 31, 37, 0.3);
+    padding: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+.slider-text a.btn.btn-jpg {
+    color: #fff;
+    border: 2px solid #fff;
+    background: rgba(21, 31, 37, 0.3);
+}
+
+.slider-text a.btn.btn-jpg:hover,
+.slider-text a.btn.btn-jpg:focus {
+    border: 2px solid #da6727;
+    background: #da6727 !important;
+}
+
+
+
+/*******************************
+4. Update/Upcoming Training CSS End Here
+*******************************/
+
+#Update .container {
+    /*max-width: 90vw;*/
+}
+
+section#Update {
+    height: 50px;
+    background: #da6727;
+    overflow: hidden;
+}
+
+section#Update .container .row .col-auto {
+    padding-right: 0px;
+    padding-left: 15px;
+}
+
+/*section#Update .container .row .col-auto:first-child {
+    padding-left: 15px;
+}*/
+
+.update_heading {
+    max-height: 50px;
+    position: relative;
+}
+
+.update_heading::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 60%;
+    background: #fff;
+    top: 20%;
+    right: 0;
+}
+
+.update_heading p{
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #da6727;
+    padding-right: 17px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom:0px;
+    max-height: 50px;
+}
+
+ul.update_news {
+    height: 50px;
+    overflow: hidden;
+    width:100%;
+}
+
+ul.update_news li {
+    line-height: 50px;
+    display: block;
+    margin-bottom:0px;
+}
+
+ul.update_news li a {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+#Update:hover ul.update_news li a{
+    text-decoration: underline;
+}
+
+ul.update_news li a span{
+    color:#fff;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+/*******************************
+4. Update/Upcoming Training CSS End Here
+*******************************/
+
+
+/*****************************************
+    About Us Section Start Here
+******************************************/
+
+section#About {
+    padding: 70px 0;
+}
+
+.about-us-text h3 {
+    margin-bottom: 30px;
+}
+
+.about-us-text p {
+    margin-bottom: 20px;
+}
+
+.single-promo {
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 1s;
+}
+
+.single-promo h3 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 1s;
+}
+
+.single-promo span.promo-number {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.single-promo p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.single-promo.education {
+    color: #da6727;
+    border: 1px solid #da6727;
+}
+
+.single-promo.education h3 {
+    color: #da6727;
+}
+
+.single-promo.training {
+    color: #37948d;
+    border: 1px solid #37948d;
+}
+
+.single-promo.training h3{
+    color: #37948d;
+}
+
+.single-promo.research {
+    color: #26a8e1;
+    border: 1px solid #26a8e1;
+}
+
+.single-promo.research h3{
+    color: #26a8e1;
+}
+
+.single-promo.advocacy {
+    color: #802a89;
+    border: 1px solid #802a89;
+}
+
+.single-promo.advocacy h3{
+    color: #802a89;
+}
+
+
+
+.single-promo.education:hover {
+    background: #da6727;
+}
+
+.single-promo.training:hover {
+    background: #37948d;
+}
+
+.single-promo.research:hover {
+    background: #26a8e1;
+}
+
+.single-promo.advocacy:hover {
+    background: #802a89;
+}
+
+.single-promo.education:hover,
+.single-promo.training:hover,
+.single-promo.research:hover,
+.single-promo.advocacy:hover {
+    color: #fff;
+    transform:scale(1.15);
+    z-index: 99;
+    cursor: pointer;
+}
+
+.single-promo.education:hover h3,
+.single-promo.training:hover h3,
+.single-promo.research:hover h3,
+.single-promo.advocacy:hover h3 {
+    color: #fff;
+}
+
+
+/*****************************************
+    About Us Section End Here
+******************************************/
+
+
+
+
+
+
+
+.education-color {
+    background: #da6727;
+}
+
+.training-color {
+    background: #38948d;
+}
+
+.research-color {
+    background: #27aae1;
+}
+
+.advocacy-color {
+    background: #802988;
+}
+
+
+
+.education-color:hover {
+    background: linear-gradient(90deg, rgba(212,85,40,1) 15%, rgba(229,179,44,1) 120%);
+}
+
+.training-color:hover {
+    background: linear-gradient(to right, rgba(23, 140, 164, 1) 15%, rgba(220, 225, 47, 1) 90%);
+}
+
+.research-color:hover {
+    background: linear-gradient(90deg, rgba(97, 52, 143, 1) 0%, rgba(29, 134, 163, 1) 100%);
+}
+
+.advocacy-color:hover {
+    background: linear-gradient(90deg, rgba(232,88,49,1) 0%, rgba(95,48,142,1) 100%);
+}
+
+.education-color a,
+.training-color a,
+.research-color a,
+.advocacy-color a  {
+    color: #fff !important;
+    margin: 0;
+    line-height: 100px;
+}
+
+
+
+/*Education Section Start Here*/
+
+section#Education,
+section#Training,
+section#Research,
+section#Advocacy{
+    padding: 80px 0;
+    min-height: 80vh;   
+}
+
+
+
+section#Education {
+    /*background: url('../images/background/texture.png');*/
+    background: #e4e4e4;
+}
+
+.section-heading{
+    padding-bottom: 40px;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+section#Education .section-heading h2 {
+    color: #da6727;
+}
+
+.section-heading p {
+    font-size: 1.2rem;
+}
+
+.education-course{
+    max-height: 450px;
+}
+
+.education-course {
+    box-shadow: 0px 0px 1px 0px #333;
+    display: flex;
+    position: relative;
+}
+
+.education-course:hover .course-intro h3{
+    color: #da6727;
+}
+
+/*.education-course::after,*/
+.single-previous-training::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0px;
+    border-radius: 2px;
+    background: #da6727;
+    transition: all 0.5s;
+}
+
+/*.education-course:hover::after,*/
+/*.latest-training:hover::after,
+.single-previous-training:hover::after {
+    width: 8px;
+}
+*/
+.course-image {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    max-height: 450px;
+    width: 50%;
+    position: relative;
+}
+
+.course-image .image-overlay,
+.event-image a.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+    min-width: 100%;
+    max-width: unset !important;
+    height: 100%;
+
+}
+
+
+.education-course:hover .course-image a.image-overlay,
+.single-advocacy-event:hover .event-image a.image-overlay {
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.course-intro {
+    padding: 25px;
+    background: #fff;
+    width: 50%;
+}
+
+.course-intro p {
+    margin-bottom: 15px;
+}
+
+.education-course:hover .course-image img {
+    transform: scale(1.1);
+}
+
+.course-image img {
+    transition: all 0.5s;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    min-height: 300px;
+}
+
+.big-latest-training:hover img {
+    transform: scale(1.1);
+}
+
+.small-latest-training:hover img {
+    transform: scale(1.1);
+}
+
+/*.course-image.large-device {
+    display: block;
+}
+
+.course-image.small-device {
+    display: none;
+}*/
+
+.large-device {
+    display: block !important;
+}
+
+.small-device {
+    display: none !important;
+}
+
+
+/**********************************************
+                Training Styles Start
+**********************************************/
+
+section#Training .section-heading h2{
+    color: #38948d;
+}
+
+section#Training .section-heading a.btn.btn-archive:hover {
+    color: #38948d;
+}
+
+.small-latest-training .training-image {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.small-latest-training {
+    clear: both;
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+.big-latest-training .training-image {
+    max-height: 270px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.small-latest-training .training-image img {
+    min-width: 100%;
+}
+
+.training-meta h4 a {
+    color: #6b6b6b !important;
+}
+
+.training-meta h4 {
+    margin-bottom: 10px;
+}
+
+.training-meta p.facilitator {
+    color: #969696;
+    font-size: 1rem;
+    font-weight:700;
+    margin-bottom: 10px;
+}
+
+.training-meta p.facilitator span {
+    /*margin-right: 20px;*/
+}
+
+.big-latest-training a.btn.btn-jpg {
+    margin-top: 20px;
+}
+
+.big-latest-training:hover .training-meta h4 a,
+.small-latest-training:hover .training-meta h4 a {
+    color: #38948d !important;
+}
+
+
+/**********************************************
+                Training Styles End
+**********************************************/ 
+
+
+/*******************************
+7. Research CSS Start Here
+*******************************/
+
+section#Research{
+    position: relative;
+}
+
+section#Research::before{
+    position: absolute;
+    content: '';
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+section#Research ul.nav-tabs {
+    border-bottom: none;
+}
+
+section#Research ul.nav-tabs li.nav-item {
+    text-align: center;
+    overflow:hidden;
+}
+
+
+section#Research ul.nav-tabs li.nav-item a.nav-link {
+    border-radius: 0px;
+    border: none;
+    border-right: 1px solid #fff;
+    padding: 30px;
+    min-height: 170px;
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #27aae1;
+    position: relative;
+}
+
+section#Research ul.nav-tabs li.nav-item a.nav-link:last-child{
+    border-right: 1px solid #f5f5f5;
+}
+
+section#Research ul.nav-tabs li.nav-item a.nav-link::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    border-radius: 2px;
+    background: linear-gradient(to right, rgba(97, 52, 143, 0.8) 0%, rgba(29, 134, 163, 0.8) 100%);
+    transition: all 0.5s;
+}
+
+section#Research ul.nav-tabs li.nav-item a.nav-link:hover::after {
+    width: 5px;
+}
+
+section#Research ul.nav-tabs li.nav-item a.nav-link:hover{
+    /*border:none;*/
+}
+
+section#Research ul.nav-tabs li.nav-item a.nav-link img {
+    max-width: 150px;
+    max-height: 110px;
+    width: auto;
+}
+
+section#Research ul.nav-tabs li.nav-item:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+section#Research ul.nav-tabs li.nav-item:last-child {
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+    /*max-width: calc(190px - 1px);*/
+}
+
+section#Research ul.nav-tabs li.nav-item a.nav-link.active {
+    background: transparent;
+}
+
+
+section#Research h2{
+    color: #27aae1;
+}
+
+section#Research p {
+    /*color: #6f6f6f;*/
+}
+
+.tab-pane h4 {
+    color: #3d3d3d !important;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+div#myTabContent {
+    z-index: 1;
+    max-width: 950px;
+    margin-top: 35px;
+}
+
+div#myTabContent .tab-pane {
+    text-align: center;
+}
+
+/*.research-bg{ background-image: url('../images/research/CoE-Main-Page.jpg');}*/
+.research-bg{ background: #e4e4e4;}
+
+.cgsrhr-bg{ background-image: url('../images/research/GCSRHR.jpg');}
+
+.uhc-bg{ background-image: url('../images/research/a.jpg');}
+
+.cueh-bg{ background-image: url('../images/research/DSC01121.JPG');}
+
+.sisu-bg{ background-image: url('../images/research/IMG_0249.JPG');}
+
+.cncdn-bg{ background-image: url('../images/research/WL4A0036.JPG');}
+
+
+.research-bg,
+.cgsrhr-bg,
+.uhc-bg,
+.cueh-bg,
+.sisu-bg,
+.cncdn-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*******************************
+7. Research CSS End Here
+*******************************/
+
+
+/*******************************
+7. Advocacy CSS Start Here
+*******************************/
+
+.big .event-image {
+    max-height: 300px;
+    overflow: hidden;
+    /*margin-bottom: 15px;*/
+}
+
+.event-image{
+    position: relative;
+}
+
+.event-image img {
+    /*width: 100%;*/
+}
+
+.event-intro {
+    background: #fff;
+    padding: 15px;
+}
+
+
+
+.homepage-events-list {
+    min-height: 520px;
+}
+
+.homepage-events-list .single-advocacy-event {
+    clear: both;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    min-height: 165px;
+}
+
+.homepage-events-list .single-advocacy-event:last-child {
+    /*border-bottom: 0px;*/
+}
+
+.homepage-events-list .event-image {
+    width: 30%;
+    float: left;
+    /*margin: 0 15px 0 0;*/
+}
+
+.single-advocacy-event .event-intro h4 {
+    font-size: 1.4rem;
+    margin: 0 0 10px;
+    line-height: 2rem;
+}
+
+.single-advocacy-event .event-intro p {
+    margin-bottom: 0px;
+}
+
+
+.single-advocacy-event.small-event p.event-short-intro {
+    /*font-size: 0.9rem;*/
+    margin-top: 12px;
+}
+
+/*Hover effect use korte chaile padding use korte hobe*/
+/*.event-intro {
+    padding: 0 20px 25px;
+}*/
+
+.single-advocacy-event:hover .event-intro h4 a {
+    color: #802988;
+}
+
+.single-advocacy-event:hover img {
+    transform: scale(1.1);
+}
+
+section#Advocacy .section-heading h2{
+    color: #802988;
+}
+
+section#Advocacy .section-heading a.btn.btn-archive:hover {
+    color: #802988;
+}
+
+.single-advocacy-event.small-event .event-image a img {
+    min-height: 80px;
+    min-width: 100% !important;
+    max-width: 115%;
+}
+
+.single-advocacy-event.small-event .event-image {
+    overflow: hidden;
+}
+
+.single-advocacy-event:hover .event-image a.image-overlay {
+    transform: scale(1.1);
+}
+
+.single-advocacy-event.small-event {
+    display: flex;
+}
+
+.single-advocacy-event.small-event .event-image {
+    width: 30%;
+}
+
+.single-advocacy-event.small-event .event-intro {
+    width: 70%;
+}
+
+.single-advocacy-event.small-event a.btn.btn-jpg {
+    margin-top: 0px;
+}
+
+.single-advocacy-event.big .event-intro {
+    padding-left: 0;
+}
+
+.homepage-events-list .event-intro {
+    padding-top: 0px;
+}
+
+/*******************************
+7. Advocacy CSS End Here
+*******************************/
+
+
+
+/*******************************
+8. Publication CSS Start Here
+*******************************/
+
+section#Publication{
+    min-height: 90vh;
+    background: #e4e4e4;
+}
+
+.owl-carousel.publication-slider .owl-dots {
+    display: none;
+}
+
+.owl-carousel.publication-slider {
+    position: relative;
+    /*padding-bottom: 20px;*/
+}
+
+.owl-carousel.publication-slider .owl-nav button.owl-prev,
+.owl-carousel.publication-slider .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #b1b1b1;
+    background: #fff;
+}
+
+.owl-carousel.publication-slider .owl-nav button.owl-prev {
+    left: -70px;
+}
+
+.owl-carousel.publication-slider .owl-nav button.owl-next {
+    right: -70px;
+}
+
+.owl-carousel.publication-slider .owl-nav button.owl-prev:hover,
+.owl-carousel.publication-slider .owl-nav button.owl-next:hover {
+    color: #da6727;
+}
+
+section#Publication a.btn.btn-jpg {
+    /*position: absolute;*/
+    right: 15px;
+    bottom: 0;
+    margin-top:0;
+}
+
+/*******************************
+8. Publication CSS End Here
+*******************************/
+
+
+/*******************************
+    Newsletter, Blog & Video CSS Start Here
+*******************************/
+
+section#NewsletterBlogVideo {
+    min-height: 60vh;
+}
+
+.nvb-box {
+    max-height: 195px;
+    overflow: hidden;
+}
+
+.nvb-box.video-box {
+    position: relative;
+}
+
+.nvb-box.video-box svg.svg-inline--fa.fa-play-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 50px;
+}
+
+.nvb-box.video-box:hover .svg-inline--fa.fa-play-circle {
+    color: red;
+}
+
+.nvb-box.nb:hover img {
+    transform: scale(1.1);
+}
+
+.nvb-box.nb img {
+    transition: all 0.5s;
+}
+
+.mfp-wrap {
+    z-index: 99999999;
+}
+
+.mfp-bg.mfp-ready {
+    z-index: 9999999;
+}
+
+
+
+
+
+section#NewsletterBlogVideo h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    background: #da6727;
+    padding: 10px;
+    border: 1px solid #da6727;
+    border-top: 0;
+    text-align: center;
+}
+
+section#NewsletterBlogVideo h3:hover {
+    color: #da6727;
+    background: #fff;
+}
+
+/*******************************
+    Newsletter, Blog & Video CSS End Here
+*******************************/
+
+
+
+
+/*******************************
+11. Library CSS Start Here
+*******************************/
+
+
+section#Library {
+    background: #f5f5f5;
+    padding: 80px 0;
+
+}
+
+section#Library h2,
+section#Photo-gallery h2,
+section#Publication h2{
+    color: #da6727;
+}
+
+section#Library a.btn.btn-archive:hover,
+section#Photo-gallery a.btn.btn-archive:hover,
+section#Publication a.btn.btn-archive:hover {
+    color: #da6727;
+}
+
+.library-gallery a {
+    display: block;
+}
+
+.library-gallery a img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.library-gallery a img:hover {
+    transform: scale(1.1);
+}
+
+
+/*******************************
+11. Library CSS End Here
+*******************************/
+
+
+/*******************************
+    Photo Gallery CSS End Here
+*******************************/
+
+section#Photo-gallery {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mfp-bottom-bar .mfp-title {
+    display: none;
+}
+
+.owl-carousel.library-slide .owl-nav button,
+.owl-carousel.gallery-slide .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #e4e4e4;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+.owl-carousel.library-slide .owl-nav button.owl-prev,
+.owl-carousel.gallery-slide .owl-nav button.owl-prev {
+    left: -65px;
+}
+
+.owl-carousel.library-slide .owl-nav button.owl-next,
+.owl-carousel.gallery-slide .owl-nav button.owl-next {
+    right: -65px;
+}
+
+.owl-carousel.library-slide .owl-dots,
+.owl-carousel.gallery-slide .owl-dots {
+    display: none;
+}
+
+.owl-carousel.library-slide .owl-nav button svg.svg-inline--fa,
+.owl-carousel.gallery-slide .owl-nav button svg.svg-inline--fa {
+    font-size: 30px;
+    margin: 10px 15px;
+    color: #b1b1b1;
+}
+
+.owl-carousel.library-slide .owl-nav button:hover svg.svg-inline--fa,
+.owl-carousel.gallery-slide .owl-nav button:hover svg.svg-inline--fa {
+    color: #da6727;
+}
+
+/*******************************
+    Photo Gallery CSS End Here
+*******************************/
+
+
+/*******************************
+13. Subscription CSS Start Here
+*******************************/
+
+section#Subscription {
+    min-height: 180px;
+    background: #e8e8e8;
+}
+
+section#Subscription h3 {
+    margin-bottom: 0px;
+    line-height: 60px;
+}
+
+#Subscription input[type="email"] {
+    line-height: 60px;
+    padding: 0px 25px;
+    width: 320px;
+    border: none;
+    background: #fff;
+}
+
+#Subscription input[type="email"]::placeholder {
+    color: #a3a3a3;
+    font-size: 1rem;
+}
+
+button.btn.btn-subscription {
+    background: #da6727;
+    border-radius: 0;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    padding: 0 30px;
+    border: none;
+    margin: 0;
+    border-image-width: 0px !important;
+    border-width: 0px;
+    vertical-align: unset;
+    margin-left: -3px;
+    font-size: 1.2rem;
+}
+
+
+/*******************************
+13. Subscription CSS End Here
+********************************/
+
+
+/*******************************
+13. Footer CSS Start Here
+*******************************/
+
+footer#footer {
+    background: #1d262c;
+    color: #fff;
+}
+
+.footer-top {
+    min-height: 150px;
+}
+
+.footer-top p {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+ul.footer-social-menu {
+    padding-left: 50px;
+}
+
+ul.footer-social-menu li {
+    margin: 0 10px;
+}
+
+ul.footer-social-menu li:last-child {
+    margin-right: 0px;
+}
+
+ul.footer-social-menu li a {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+ul.footer-social-menu li a:hover {
+    color: #da6727;
+    border: 1px solid #da6727;
+}
+
+.footer-middle {
+    padding-bottom: 35px;
+}
+
+.single-footer-menu h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+
+.single-footer-menu ul {
+    padding-top: 25px;
+}
+
+.single-footer-menu ul li {
+    line-height: 35px;
+    display: block;
+}
+
+.single-footer-menu ul li a {
+    color: #a7a9aa;
+}
+
+.single-footer-menu ul li a:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+.footer-bottom {
+    min-height: 60px;
+    background: #151f25;
+    color: #a7a9aa;
+    font-size: 1rem;
+}
+
+.copyright-text p {
+    font-size: 0.9rem;
+}
+
+.footer-bottom ul li{
+    margin:0 5px;
+}
+
+.footer-bottom ul li:last-child{
+    margin-right:0;
+}
+
+.footer-bottom ul li a {
+    color: #a7a9aa;
+    font-size: 0.9rem;
+}
+
+.footer-bottom ul li a:hover {
+    color: #fff;
+}
+
+/*******************************
+13. Footer CSS End Here
+********************************/
+
+
+
+
+/*******************************
+    About School Page Start
+********************************/
+
+section#About-school {
+    padding: 50px 0;
+}
+
+#About-school .about-us-text h3 {
+    margin: 50px 0 15px;
+}
+
+#About-school .about-us-text h3:first-child {
+    margin-top: 0px !important;
+}
+
+.single-dean {
+    margin-bottom: 50px;
+    background: #f5f5f5;
+    padding: 15px;
+}
+
+.dean-image {
+    max-height: 380px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+/*New About Page Start*/
+
+section#About-page-banner {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+section#About-page-banner::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -10%;
+    height: 100%;
+    width: 62%;
+    background: black;
+    transform: skewX(20deg);
+}
+
+section#About-page-banner .about-us-text {
+    color: #fff;
+}
+
+section#About-page-banner .about-us-text h3 {
+    color: #fff;
+}
+
+section#About-page-promo {
+    padding: 80px 0;
+}
+
+section#About-page-promo .single-promo {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+/*section#Vision-mission {
+    display: flex;
+}
+
+.vision-mission-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 75px 0 30px;
+    background: #f5f5f5;
+}
+
+.vision-mission-text p {
+    padding-right: 0;
+}
+
+.vision-mission-image, .vision-mission-text {
+    min-width: 50%;
+}
+
+.vision-mission-text p {
+    margin-bottom: 30px;
+}
+
+.vision-mission-text p:last-child {
+    margin-bottom: 0px;
+}
+
+.vision-mission-image {
+    min-height: 490px;
+    overflow: hidden;
+    max-height: 500px;
+}
+
+.vision-mission-image img {
+    min-height: inherit;
+    min-width: 100%;
+    max-width: initial;
+}
+*/
+/*New About Page End*/
+
+
+
+
+/*******************************
+    About School Page end
+********************************/
+
+
+
+
+
+/**************************************
+    Advisory Board Layout Start Here
+***************************************/
+
+section#Advisory-board {
+    padding: 60px 0;
+}
+
+.single-advisor {
+    background: #f5f5f5;
+    overflow: auto;
+    margin: 30px 0;
+}
+
+.advisor-image,
+.advisor-short-info{
+    float:left;
+    width:50%;
+}
+
+.advisor-image {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.advisor-short-info {
+    padding: 15px;
+}
+
+.advisor-short-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #656565;
+}
+
+.advisor-short-info h4 {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #6f6f6f;
+    font-weight: 400;
+}
+
+
+/**************************************
+    Advisory Board Layout End Here
+***************************************/
+
+
+
+/**************************************
+    Academic Links Layout Start Here
+***************************************/
+
+section#Academic-links{
+    padding: 50px 0;
+}
+
+section#Academic-links h3 {
+    margin-bottom: 35px;
+}
+
+.single-academic-link {
+    background: #ffffff;
+    transition: all 0.5s;
+}
+
+.single-academic-link a {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.single-academic-link a img {
+    max-height: 80px;
+    max-width: 100%;
+    width: auto;
+}
+
+.single-academic-link:hover {
+    transform: scale(1.2);
+}
+
+/**************************************
+    Academic Links Layout End Here
+***************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************************
+                            Responsive CSS Styles
+**********************************************************************/
+
+
+
+/*****************************
+******************************
+        Mobile Devices
+******************************
+******************************/
+@media only screen and (max-width: 767px) {
+
+    /*Common Styles Start Here*/
+
+    .section-heading h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    a.btn.btn-jpg {
+        font-size: 0.7rem;
+        min-width: 100px;
+        min-height: 31px;
+        line-height: 35px;
+        padding: 0 5px;
+    }
+
+    a.btn.btn-archive {
+        bottom: -25px;
+        font-size: 12px;
+    }
+
+    .wow.animated {
+        visibility: visible !important;
+        /*animation: unset !important;*/
+    }
+
+    /*Common Styles End Here*/
+
+
+    /*Header Styles Start Here*/
+    #Header .container {
+        max-width: 95vw;
+    }
+
+    ul.topbar-menu li {
+        margin-left: 8px;
+    }
+
+    ul.topbar-menu li a {
+        letter-spacing: 0.02rem;
+        font-size: 0.6rem;
+    }
+
+
+    /*Main Menu Start Here*/
+
+    .header-main .row .col-md-4 {
+        width: 80%;
+    }
+
+    .header-main .row .col-md-8 {
+        width: 100%;
+    }
+
+    header .header-main.sticky {
+        overflow-x: scroll;
+    }
+
+    header .header-main {
+        padding: 20px 0;
+    }
+
+    button.navbar-toggler {
+        position: absolute;
+        top: -45px;
+        right: 0px;
+    }
+
+    div#navbarResponsive {
+        padding-top: 20px;
+    }
+
+    li.first-drop-menu:first-child{
+        background: #ddd;
+        box-shadow: none;
+    }
+
+    ul.navbar-nav li a {
+        line-height: 50px;
+    }
+
+    ul.first-dropped-menu,
+    ul.second-dropped-menu {
+        position: static;
+        overflow-y: scroll;
+        margin-left: 10px;
+        max-width: 250px;
+        overflow: visible;
+    }
+
+    ul.second-dropped-menu {
+        background: #101010;
+    }
+
+    ul.first-dropped-menu li a,
+    ul.second-dropped-menu li a {
+        padding: 5px 10px;
+    }
+
+    .header-main nav.navbar {
+        padding: 0;
+    }
+
+    ul.second-dropped-menu.research li a {
+        font-size: 0.8rem !important;
+        line-height: 20px !important;
+        letter-spacing: 0px;
+    }
+
+    /*Main Menu End Here*/
+
+    /*Header End Here*/
+
+
+    /*Main Slider Start Here*/
+    #Slider,
+    #Slider .main-slider,
+    #Slider .main-slider .swiper-wrapper {
+        max-height: 40vh !important;
+        height: auto !important;
+    }
+
+    #Slider .main-slider img {
+        min-width: 170%;
+        max-width: 175%;
+        min-height: 240px;
+    }
+
+    .slider-text {
+        width: 250px;
+        height: auto;
+        left: 15px;
+        top: 40px;
+    }
+
+    .slider-text h3 {
+        font-size: 25px;
+        display: block;
+        line-height: 35px;
+    }
+
+    .slider-text p {
+        display: none;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+        background: rgb(255, 255, 255);
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    span.swiper-button-prev {
+        right: 31px;
+        left: unset;
+        bottom: 0;
+        top: unset;
+    }
+
+    span.swiper-button-next {
+        right: 0px;
+        bottom: 0;
+        top: unset;
+    }
+    /*Main Slider End Here*/
+
+
+    /*Update Start Here*/
+    section#Update {
+        height: auto;
+        background: #e4e4e4;
+    }
+
+    ul.update_news {
+        height: 70px;
+    }
+
+    section#Update .container .row .col-auto:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .update_heading p {
+        line-height: 45px;
+        margin-bottom: 10px;
+        background: transparent;
+        color:#da6727;
+    }
+
+    .update_heading::after {
+        height: 1px;
+        width: 90vw;
+        left: 0;
+        bottom: 0;
+        top: unset;
+        background: #da6727;
+    }
+
+
+    ul.update_news li {
+        line-height: unset;
+        margin-bottom:20px;
+    }
+
+    ul.update_news li a {
+        color: #da6727;
+    }
+
+    ul.update_news li a span {
+        padding-left: 0px;
+        color: #da6727;
+    }
+
+    /*Update End Here*/
+
+
+    /*About Us Start Here*/
+
+    .single-promo.education:hover,
+    .single-promo.training:hover,
+    .single-promo.research:hover,
+    .single-promo.advocacy:hover {
+        transform: scale(1.08);
+    }
+
+    .about-us-promo {
+        padding-top: 70px;
+    }
+
+    .single-promo {
+        padding: 20px;
+    }
+
+    /*About Us End Here*/
+
+
+    /*Education Start Here*/
+    .education-course {
+        display: unset;
+    }
+
+    .education-course .course-image,
+    .education-course .course-intro {
+        width: 100%;
+    }
+
+/*    .course-image.large-device {
+        display: none;
+    }
+
+    .course-image.small-device {
+        display: block;
+        margin-top: 50px;
+    }*/
+
+    .large-device {
+        display: none !important;
+    }
+
+    .small-device {
+        display: block !important;
+        margin-top: 50px;
+    }
+
+    .course-image img {
+        min-height: auto;
+    }
+
+    /*Education End Here*/
+
+
+
+    /*Training Start Here*/
+
+    .small-latest-training-list {
+        padding-top: 50px;
+    }
+
+    .small-latest-training .training-image {
+        float: none;
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /*Training End Here*/
+
+
+
+    /*Research Start Here*/
+
+    ul#myTab {
+        display: block;
+    }
+
+    section#Research ul.nav-tabs li.nav-item,
+    section#Research ul.nav-tabs li.nav-item:first-child,
+    section#Research ul.nav-tabs li.nav-item:last-child {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    section#Research ul.nav-tabs li.nav-item a.nav-link img {
+        max-width: -webkit-fill-available;
+        max-height: 150px;
+    }
+
+    div#myTabContent {
+        display: none;
+    }
+
+    #Research .nav-tabs .nav-item {
+        margin-bottom: 10px !important;
+    }
+
+    .owl-carousel.library-slide .owl-nav button.owl-prev {
+        left: 0px;
+    }
+
+    .owl-carousel.library-slide .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .library-slide.owl-carousel.small-device {
+        margin-top: 0px;
+    }
+
+    /*Research End Here*/
+
+
+    /*Advocacy Start Here*/
+
+    .single-advocacy-event.small-event {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .single-advocacy-event.small-event .event-image {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .single-advocacy-event.small-event .event-intro {
+        width: 100%;
+    }
+
+
+    /*Advocacy End Here*/
+
+    /*Publication Start Here*/
+
+    .owl-carousel.publication-slider .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    .owl-carousel.publication-slider .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    /*Publication End Here*/
+
+
+
+    /*Newsletter Blog and Video Section Styles Start Here*/
+    section#NewsletterBlogVideo {
+        padding: 50px 0;
+    }
+    /*Newsletter Blog and Video Section Styles Start Here*/
+
+
+    /*Photo Gallery Start*/
+
+    section#Photo-gallery {
+        display: unset;
+        min-height: auto;
+    }
+
+    .popup-gallery {
+        margin: 80px 0px;
+    }
+
+    .owl-carousel.gallery-slide .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .owl-carousel.gallery-slide .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    /*Photo Gallery End*/
+
+
+
+    /*Subscription*/
+    #Subscription input[type="email"] {
+        width: 100%;
+    }
+
+    button.btn.btn-subscription {
+        width: 100%;
+    }
+
+    section#Subscription {
+        min-height: auto;
+        padding: 80px 0;
+    }
+
+    section#Subscription h3 {
+        font-size: 20px;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    /*Footer*/
+    .footer-logo {
+        margin: 35px 0;
+    }
+
+    ul.footer-social-menu {
+        padding-left: 8px;
+    }
+
+    .footer-top .container .row .col-md-6 {
+        justify-content: center !important;
+    }
+
+    .footer-top p {
+        font-size: 1rem;
+    }
+
+    ul.footer-social-menu li {
+        margin: 0 5px;
+    }
+
+    ul.footer-social-menu li a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-middle .container .row .col-md-12 {
+        display: unset !important;
+    }
+
+    .single-footer-menu {
+        min-width: 40%;
+        float: left;
+        margin: 8px;
+        min-height: 230px;
+    }
+
+    .single-footer-menu:nth-child(odd) {
+        margin-right: 12%;
+    }
+
+    .single-footer-menu h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0px;
+    }
+
+    .single-footer-menu ul {
+        padding-top: 10px;
+    }
+
+    .footer-middle {
+        padding-top: 35px;
+    }
+
+    .copyright-text {
+        text-align: center;
+    }
+
+    .footer-bottom ul {
+        text-align: center;
+    }
+
+    .footer-bottom ul li {
+        line-height: 40px;
+    }
+
+    .copyright-text p {
+        line-height: 25px;
+        padding: 15px;
+    }
+
+
+    /*About School Page*/
+
+    #About-school .about-us-text {
+        margin-bottom: 0px;
+    }
+
+    .single-dean {
+        margin-left: 0px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*****************************
+******************************
+        Tab Devices
+******************************
+******************************/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /*Common Styles Start Here*/
+
+    .section-heading h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    a.btn.btn-jpg {
+        font-size: 0.7rem;
+        min-width: 100px;
+        min-height: 31px;
+        line-height: 35px;
+        padding: 0 5px;
+    }
+
+    a.btn.btn-archive {
+        bottom: -25px;
+        font-size: 12px;
+    }
+
+    .wow.animated {
+        visibility: visible !important;
+    }
+
+    .col-md-6 {
+        max-width: 100% !important;
+        flex: unset;
+    }
+
+    /*Common Styles End Here*/
+
+
+    /*Header Styles Start Here*/
+    #Header .container {
+        max-width: 95vw;
+    }
+
+    ul.topbar-menu li {
+        margin-left: 25px;
+    }
+
+    ul.topbar-menu li a {
+        letter-spacing: 0.02rem;
+        font-size: 0.8rem;
+    }
+
+
+    /*Main Menu Start Here*/
+
+    .header-main .row .col-md-4 {
+        max-width: 70% !important;
+        flex: unset;
+        align-items: start !important;
+    }
+
+    .header-main .row .col-md-8 {
+        max-width: 30%;
+        flex: unset;
+    }
+
+    header .header-main.sticky {
+        overflow-x: scroll;
+    }
+
+    header .header-main {
+        padding: 20px 0;
+    }
+
+    button.navbar-toggler {
+        position: absolute;
+        top: 35px;
+        right: 0px;
+    }
+
+    div#navbarResponsive {
+        padding-top: 100px;
+    }
+
+    li.first-drop-menu:first-child{
+        background: #ddd;
+        box-shadow: none;
+    }
+
+    ul.navbar-nav li a {
+        line-height: 50px;
+    }
+
+    ul.first-dropped-menu,
+    ul.second-dropped-menu {
+        position: static;
+        overflow-y: scroll;
+        margin-left: 10px;
+        max-width: 250px;
+        overflow: visible;
+    }
+
+    ul.second-dropped-menu {
+        background: #101010;
+    }
+
+    ul.first-dropped-menu li a,
+    ul.second-dropped-menu li a {
+        padding: 5px 10px;
+    }
+
+    .header-main nav.navbar {
+        padding: 0;
+    }
+
+    ul.second-dropped-menu.research li a {
+        font-size: 0.8rem !important;
+        line-height: 20px !important;
+        letter-spacing: 0px;
+    }
+
+    /*Main Menu End Here*/
+
+    /*Header End Here*/
+
+
+    /*Main Slider Start Here*/
+    #Slider,
+    #Slider .main-slider,
+    #Slider .main-slider .swiper-wrapper {
+        max-height: 40vh !important;
+        height: auto !important;
+    }
+
+    #Slider .main-slider img {
+        min-width: 170%;
+        max-width: 175%;
+        min-height: 240px;
+    }
+
+    .slider-text {
+        width: 480px;
+        height: auto;
+        left: 40px;
+        top: 40px;
+    }
+
+    .slider-text h3 {
+        font-size: 35px;
+        display: block;
+        line-height: 45px;
+    }
+
+    .slider-text p {
+        display: none;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+        background: rgb(255, 255, 255);
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+
+    span.swiper-button-prev {
+        right: 31px;
+        left: unset;
+        bottom: 0;
+        top: unset;
+    }
+
+    span.swiper-button-next {
+        right: 0px;
+        bottom: 0;
+        top: unset;
+    }
+    /*Main Slider End Here*/
+
+
+
+    /*About Us Section Start Here*/
+    .about-us-promo .col-md-6 {
+        width: 50%;
+    }
+
+    .about-us-promo {
+        padding-top: 50px;
+    }
+    /*About Us Section End Here*/
+
+
+
+    /*Education Section Styles Start Here*/
+
+    .education-course {
+        display: unset;
+        max-height: unset;
+    }
+
+    .course-image,
+    .course-intro {
+        width: 100%;
+    }
+
+    .course-image.large-device {
+        display: none;
+    }
+
+    .course-image.small-device {
+        display: block;
+        margin-top: 50px;
+    }
+
+    /*Education Section Styles End Here*/
+
+
+
+
+
+    /*Training Section Start Here*/
+
+    .big-latest-training {
+        margin-bottom: 50px;
+    }
+
+    .big-latest-training .training-image {
+        max-height: 420px;
+    }
+
+    .small-latest-training .training-image {
+        width: 40%;
+    }
+
+    /*Training Section End Here*/
+
+
+
+
+
+
+    /*Research Section Styles Start Here*/
+
+    div#myTabContent {
+        max-width: 660px;
+    }
+
+    section#Research ul.nav-tabs li.nav-item a.nav-link {
+        min-width: 100px;
+        min-height: 150px;
+    }
+
+    section#Research ul.nav-tabs li.nav-item a.nav-link img {
+        max-width: 120px;
+        max-height: 80px;
+    }
+
+    section#Research ul.nav-tabs li.nav-item a.nav-link {
+        padding: 15px 5px;
+    }
+
+    section#Research ul.nav-tabs li.nav-item {
+        min-width: 120px;
+    }
+
+    /*Research Section Styles End Here*/
+
+
+
+    /*Advocacy Section Styles Start Here*/
+
+    .single-advocacy-event.big {
+        margin-bottom: 50px;
+    }
+
+    .big .event-image {
+        max-height: 420px;
+    }
+
+    .single-advocacy-event.small-event .event-image {
+        width: 40%;
+    }
+
+    /*Advocacy Section Styles End Here*/
+
+
+
+    /*Publication Start Here*/
+
+    .owl-carousel.publication-slider .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    .owl-carousel.publication-slider .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    /*Publication End Here*/
+
+
+    /*Photo Gallery Start*/
+
+    section#Photo-gallery {
+        display: unset;
+        min-height: auto;
+    }
+
+    .popup-gallery {
+        margin: 80px 0px;
+    }
+
+    .owl-carousel.gallery-slide .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .owl-carousel.gallery-slide .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    /*Photo Gallery End*/
+
+
+
+
+    /*Newsletter Blog and Video Section Start Here*/
+
+    section#NewsletterBlogVideo {
+        padding: 80px 0 50px;
+    }
+
+    section#NewsletterBlogVideo .col-md-4 {
+        max-width: 100% !important;
+        flex: unset;
+        margin-bottom: 30px;
+    }
+
+    .nvb-box {
+        max-height: max-content;
+        height: auto;
+    }
+
+    .nvb-box.nb img {
+        min-width: 100%;
+    }
+
+    /*Newsletter Blog and Video Section End Here*/
+
+
+
+
+    /*Subscription Section Start Here*/
+
+    section#Subscription {
+        padding: 50px 0;
+    }
+
+    section#Subscription h3 {
+        text-align: center;
+    }
+
+    section#Subscription form {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    section#Subscription form input {
+        width: 70% !important;
+    }
+
+    /*Subscription Section End Here*/
+
+
+
+    /*Footer Section Start Here*/
+
+    .footer-top .col-md-6 {
+        max-width: 60% !important;
+    }
+
+    .footer-top p {
+        font-size: 1.2rem;
+    }
+
+    ul.footer-social-menu {
+        padding-left: 10px;
+    }
+
+    ul.footer-social-menu li {
+        margin: 0 5px;
+    }
+
+    /*Footer Section End Here*/
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/*****************************
+******************************
+        Big Devices
+******************************
+******************************/
+@media only screen and (min-width: 1367px){
+
+    .container {
+        max-width: 80vw;
+    }
+
+	ul.navbar-nav li{
+		/*margin-left: 80px;*/
+	}
+
+	ul.first-dropped-menu li,
+	ul.second-dropped-menu li{
+		margin-left: 0px;
+	}
+
+
+    ul.second-dropped-menu.research li a {
+        line-height: 30px !important;
+    }
+
+    ul.navbar-nav li a{
+        line-height: 120px;
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+    }
+
+    section#Slider {
+        max-height: calc( 100vh - 209px );
+    }
+
+
+    #Slider .main-slider {
+        max-height: calc( 100vh - 209px );
+    }
+
+    #Slider .main-slider img {
+        min-width: 100%;
+        height: 100%;
+        max-width: 100%;
+        width: initial;
+    }
+
+    .section-heading p{
+        font-size: 1.4rem;
+    }
+
+    .education-course {
+        max-height: 600px;
+    }
+
+    .course-image {
+        max-height: 600px;
+        width: 50%;
+    }
+
+    .course-image img {
+        min-height: 600px;
+    }
+
+    .course-intro{
+        padding: 30px;
+            width: 50%;
+    }
+
+    .course-intro h3 {
+        margin-bottom: 30px;
+    }
+
+    .slider-text{
+        bottom: 100px;
+        left: 200px;
+    }
+
+
+
+
+    .about-section-image {
+        height: 660px;
+    }
+
+
+
+    .about-section-image img {
+        min-height: 660px;
+    }
+
+    .about-text,
+    .education-text,
+    .training-text,
+    .research-text,
+    .advocacy-text {
+        left: 100px;
+    }
+
+    .promo-block {
+        padding-left: 80px;
+    }
+
+    .single-number-block {
+        width: 300px;
+        height: 300px;
+    }
+
+    .single-number-block h4 {
+        font-size: 25px;
+    }
+
+
+
+
+
+
+    .big-latest-training .training-image {
+        max-height: 400px;
+    }
+
+
+    .training-meta p,
+    .single-previous-training p {
+        font-size: 1.1rem;
+    }
+
+
+
+
+
+
+    section#Research ul.nav-tabs li.nav-item a.nav-link {
+        min-width: 300px;
+        min-height: 220px;
+    }
+
+    #Advocacy a.btn.btn-jpg {
+        color: #802988;
+        border: 2px solid #802988;
+        margin-top: 1.5rem;
+    }
+
+
+
+
+    .event-image a {
+        min-width: 100% !important;
+    }
+
+
+    /*Advocacy*/
+    .big .event-image {
+        max-height: 400px;
+    }
+
+    .homepage-events-list .single-advocacy-event {
+        margin-bottom: 21px;
+        padding-bottom: 21px;
+        min-height: 185px;
+    }
+
+
+
+    /*Newsletter, Blog & Library*/
+
+    .nvb-box {
+        max-height: 270px;
+    }
+
+
+
+    /*Footer*/
+    .footer-logo {
+        padding-right: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*About School Page*/
+
+    #About-school .about-us-text {
+        margin-bottom: 120px;
+    }
+
+    .dean-image {
+        max-height: 500px;
+    }
+
+
+
+    /*Advisory Board*/
+
+
+    .advisor-short-info h3 {
+        font-size: 1.6rem;
+    }
+
+    .advisor-short-info h4 {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+
+
+
+
+/* Academic Links Layout Start Here */
+    
+    .single-academic-link a {
+        min-height: 150px;
+    }
+
+    .single-academic-link a img {
+        max-height: 100px;
+    }
+
+    .single-academic-link:hover {
+        transform: scale(1.1);
+    }
+
+
+/* Academic Links Layout End Here */
+
+
+
+
+
+}
