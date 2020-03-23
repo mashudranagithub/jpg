@@ -1902,6 +1902,10 @@ section#Academic-links h3 {
     Jpgsph staffs Layout start Here
 ***************************************/
 
+section#Staff-page-heading h2 {
+    font-size: 2rem !important;
+}
+
 section#Employee-lists {
     padding: 50px 0;
 }
