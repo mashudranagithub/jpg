@@ -436,6 +436,29 @@ $('button.navbar-toggler').click(function(){
 
 
 
+
+
+
+    //Testimonials slider
+
+    $(document).ready(function(){
+          $('.student-spech').owlCarousel({
+            center: true,
+            items:1,
+            autoplay:true,
+            autoplaySpeed: 1000,
+            dots:true,
+            loop:true,
+            responsive:{
+                600:{
+                    items:1
+                }
+            }
+        });
+    });
+
+
+
 });
 
 

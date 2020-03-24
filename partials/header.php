@@ -94,9 +94,9 @@
                                         <a href="#">Education</a>
                                         <ul class="first-dropped-menu">
                                             <li class="second-drop-menu">
-                                                <a href="#">Master of Public Health</a>
+                                                <a href="about-mph.php">Master of Public Health</a>
                                                 <ul class="second-dropped-menu">
-                                                    <li><a href="#">About</a></li>
+                                                    <li><a href="about-mph.php">About</a></li>
                                                     <li><a href="#">MPH Faculty</a></li>
                                                     <li><a href="#">MPH Application</a></li>
                                                     <li><a href="#">MPH Curriculum</a></li>

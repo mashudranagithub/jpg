@@ -1728,7 +1728,7 @@ section#About-page-banner::before {
     top: 0;
     left: -10%;
     height: 100%;
-    width: 62%;
+    width: 65%;
     background: black;
     transform: skewX(20deg);
 }
@@ -1963,6 +1963,179 @@ table.employee-table td a {
     Jpgsph staffs Layout End Here
 ***************************************/
 
+
+
+
+
+/**************************************
+    MPH About Page Layout start Here
+***************************************/
+section#About-page-banner.mph-about-page {
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+section#About-page-banner.mph-about-page::before {
+    background: #da6727;
+}
+
+section#About-page-banner.mph-about-page a.btn.btn-jpg {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+section#About-page-banner.mph-about-page a.btn.btn-jpg:hover {
+    background: #fff;
+    color: #da6727;
+}
+
+
+
+.why-brac-jpg ol.li {
+    list-style: circle;
+    display: list-item !important;
+}
+
+.why-brac-jpg ol li {
+    list-style: circle !important;
+    display: list-item !important;
+    margin-bottom: 15px;
+    font-size: 1rem !important;
+}
+
+.why-brac-jpg ol {
+    padding-left: 15px;
+}
+
+section#Why-faq {
+    padding: 80px;
+}
+
+section#Why-faq h3 {
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+.faq-questions h4.accordion-header {
+    background: #f5f5f5;
+    padding: 0px;
+}
+
+.faq-questions h4.accordion-header a {
+    color: #da6727;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.faq-questions h4.accordion-header a:hover{
+    color: #da6727;
+}
+
+/*.brochure a.btn.btn-jpg {
+    margin-top: 15px;
+}*/
+
+.card-header.accordion-header a svg.svg-inline--fa {
+    color: #da6727;
+}
+
+h4.collapsed.card-header.accordion-header span a svg.fa-minus {
+    display: none;
+}
+
+h4.collapsed.card-header.accordion-header span a svg.fa-plus {
+    display: block;
+}
+
+h4.card-header.accordion-header span a svg.fa-plus {
+    display: none;
+}
+
+
+/**************************************
+    MPH About Page Layout end Here
+***************************************/
+
+
+
+
+/************************** Testimonial Section Start **************************/
+
+#Testimonial{
+    background: url("../images/education/MPH-richardcase_1.jpg") no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center center;
+    min-height: 550px;
+}
+
+.overlay{
+    background:none repeat scroll 0 0 rgba(38, 48, 56, 0.7);
+    min-height: inherit;
+    width:100%;
+    color:#fff;
+}
+
+.student-spech.owl-carousel {
+    /*padding-top: 70px;*/
+}
+
+.student-image{
+    display: inline-block;
+}
+
+.student-image img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px!important;
+    border: 4px solid rgb(218, 103, 39);
+}
+
+.student-text{}
+
+.student-text p{
+    font-size: 1.2rem;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.student-name{
+    max-width: 60vw !important;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.student-name span {
+    color: #da6727;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 25px 0px 10px;
+    display: inline-block;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background:  none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    height:12px;
+    width:12px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background:  #da6727;
+    transform: scale(1.4);
+}
+
+
+/************************** Testimonial Section End **************************/
 
 
 
@@ -3157,6 +3330,16 @@ table.employee-table td a {
 
 
 /* Academic Links Layout End Here */
+
+
+
+
+/*mph about page start here*/
+.why-brac-jpg ol li {
+    margin-bottom: 20px;
+    font-size: 1.2rem !important;
+}
+/*mph about page end here*/
 
 
 

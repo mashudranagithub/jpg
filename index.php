@@ -151,7 +151,7 @@
                 <div class="col-md-12 wow animated slideInLeft">
                     <div class="education-course">
                         <div class="course-image">
-                            <a href="jacascript:void(0)">
+                            <a href="about-mph.php">
                                 <img src="vendor/images/education/MPH-richardcase_1.jpg" alt="Education Course Image">
                             </a>
                         </div>
@@ -159,7 +159,7 @@
                             <h3>Master of Public Health (MPH)</h3>
                             <p>Since its inception, more than three hundred students with diverse academic backgrounds in the social sciences and medicine, representing 24 countries in South Asia, Southeast Asia, Africa, Australia, North and South Americas, and Europe have graduated from JPGSPH.</p>
                             <p>Starting in 2005, our MPH students have had the opportunity to share intellectual insight and create an international network with visiting students from Harvard University and the University of Nagasaki. From 2010 to 2013, a cohort of George Washington University students had participated in the first semester and jointly studied with our MPH students.</p>
-                            <a href="javascript:void(0)" class="btn btn-jpg">Learn More</a>
+                            <a href="about-mph.php" class="btn btn-jpg">Learn More</a>
                         </div>
                     </div>
                 </div>
