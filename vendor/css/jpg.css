@@ -2058,14 +2058,7 @@ h4.card-header.accordion-header span a svg.fa-plus {
 }
 
 
-/**************************************
-    MPH About Page Layout end Here
-***************************************/
-
-
-
-
-/************************** Testimonial Section Start **************************/
+/* Testimonial Section Start */
 
 #Testimonial{
     background: url("../images/education/MPH-richardcase_1.jpg") no-repeat;
@@ -2135,7 +2128,64 @@ h4.card-header.accordion-header span a svg.fa-plus {
 }
 
 
-/************************** Testimonial Section End **************************/
+/* Testimonial Section End */
+
+
+/**************************************
+    MPH About Page Layout end Here
+***************************************/
+
+
+
+
+
+
+
+
+/****************************************
+    MPH Curriculumn Layout Start Here
+*****************************************/
+
+section#Curriculumn {
+    padding: 50px 0;
+}
+
+section#Curriculumn h2 {
+    color: #da6727;
+}
+
+section#Curriculumn table {
+    margin: 30px 0;
+}
+
+section#Curriculumn table td {
+    font-weight: 700;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #c5c5c5;
+  text-align: left;
+  padding: 10px 20px;
+}
+
+thead th {
+    background: #da6727;
+    color:  #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/****************************************
+    MPH Curriculumn Layout End Here
+*****************************************/
+
 
 
 

@@ -96,14 +96,20 @@
                                             <li class="second-drop-menu">
                                                 <a href="about-mph.php">Master of Public Health</a>
                                                 <ul class="second-dropped-menu">
-                                                    <li><a href="about-mph.php">About</a></li>
-                                                    <li><a href="#">MPH Faculty</a></li>
-                                                    <li><a href="#">MPH Application</a></li>
-                                                    <li><a href="#">MPH Curriculum</a></li>
-                                                    <li><a href="#">MPH Calendar</a></li>
-                                                    <li><a href="#">Current Students</a></li>
-                                                    <li><a href="#">Alumni</a></li>
-                                                    <li><a href="#">Alumni Graduate Forum</a></li>
+                                                    <li><a href="about-mph.php">Overview</a></li>
+                                                    <li><a href="#">MPH Admission</a></li>
+                                                    <li><a href="mph-curriculm.php">MPH Curriculum</a></li>
+                                                    <li><a href="#">Tution & Scholarship</a></li>
+                                                    <li><a href="#">Be a Student</a></li>
+<!-- 
+ Meet our Faculty
+ Meet our Students
+ Talk to our Alumni
+ Student Life &amp; Community
+-->
+                                                    <li><a href="#">Career</a></li>
+                                                    <li><a href="#">FAQs</a></li>
+                                                    <li><a href="#">Contact Us</a></li>
                                                 </ul>
                                             </li>
                                             <li class="second-drop-menu">
