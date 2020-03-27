@@ -100,12 +100,19 @@
                                                     <li><a href="#">MPH Admission</a></li>
                                                     <li><a href="mph-curriculm.php">MPH Curriculum</a></li>
                                                     <li><a href="#">Tution & Scholarship</a></li>
-                                                    <li><a href="#">Be a Student</a></li>
+                                                    <li class="no-pad"><a href="#">Be a Student</a>
+                                                        <ul class="third-dropdown-menu">
+                                                            <li><a href="#">Meet our Faculty</a></li>
+                                                            <li><a href="#">Meet our Students</a></li>
+                                                            <li><a href="#">Talk to our Alumni</a></li>
+                                                            <li><a href="#">Student Life & Community</a></li>
+                                                        </ul>
+                                                    </li>
 <!-- 
  Meet our Faculty
  Meet our Students
  Talk to our Alumni
- Student Life &amp; Community
+ Student Life & Community
 -->
                                                     <li><a href="#">Career</a></li>
                                                     <li><a href="#">FAQs</a></li>

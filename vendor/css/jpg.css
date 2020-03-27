@@ -399,6 +399,18 @@ ul.first-dropped-menu.last-dropdown {
     left: unset;
 }
 
+ul.third-dropdown-menu li {
+    padding-left: 25px;
+}
+
+ul.third-dropdown-menu {
+    background: #333;
+}
+
+.no-pad:hover {
+    padding: 0px !important;
+}
+
 /*Dropdown Menu End*/
 
 /*Search Bar*/
