@@ -102,18 +102,12 @@
                                                     <li><a href="#">Tution & Scholarship</a></li>
                                                     <li class="no-pad"><a href="#">Be a Student</a>
                                                         <ul class="third-dropdown-menu">
-                                                            <li><a href="#">Meet our Faculty</a></li>
-                                                            <li><a href="#">Meet our Students</a></li>
+                                                            <li><a href="mph-faculty.php">Meet our Faculty</a></li>
+                                                            <li><a href="mph-student.php">Meet our Students</a></li>
                                                             <li><a href="#">Talk to our Alumni</a></li>
                                                             <li><a href="#">Student Life & Community</a></li>
                                                         </ul>
                                                     </li>
-<!-- 
- Meet our Faculty
- Meet our Students
- Talk to our Alumni
- Student Life & Community
--->
                                                     <li><a href="#">Career</a></li>
                                                     <li><a href="#">FAQs</a></li>
                                                     <li><a href="#">Contact Us</a></li>
