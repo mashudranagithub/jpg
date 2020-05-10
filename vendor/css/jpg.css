@@ -1726,7 +1726,7 @@ section#About-school {
 
 /*New About Page Start*/
 
-section#About-page-banner {
+section#Page-banner {
     position: relative;
     min-height: 500px;
     display: flex;
@@ -1734,7 +1734,7 @@ section#About-page-banner {
     overflow: hidden;
 }
 
-section#About-page-banner::before {
+section#Page-banner::before {
     position: absolute;
     content: '';
     top: 0;
@@ -1745,11 +1745,11 @@ section#About-page-banner::before {
     transform: skewX(20deg);
 }
 
-section#About-page-banner .about-us-text {
+section#Page-banner .about-us-text {
     color: #fff;
 }
 
-section#About-page-banner .about-us-text h3 {
+section#Page-banner .about-us-text h3 {
     color: #fff;
 }
 
@@ -1982,23 +1982,23 @@ table.employee-table td a {
 /**************************************
     MPH About Page Layout start Here
 ***************************************/
-section#About-page-banner.mph-about-page {
+section#Page-banner.mph-about-page {
     min-height: 650px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-section#About-page-banner.mph-about-page::before {
+section#Page-banner.mph-about-page::before {
     background: #da6727;
 }
 
-section#About-page-banner.mph-about-page a.btn.btn-jpg {
+section#Page-banner.mph-about-page a.btn.btn-jpg {
     border: 2px solid #fff;
     color: #fff;
 }
 
-section#About-page-banner.mph-about-page a.btn.btn-jpg:hover {
+section#Page-banner.mph-about-page a.btn.btn-jpg:hover {
     background: #fff;
     color: #da6727;
 }
@@ -2293,7 +2293,7 @@ section#Faculties {
 
 
 /****************************************
-   MPH Batch Layout Start Here
+   MPH  Students Batch Layout Start Here
 *****************************************/
 
 #Batch-banner {
@@ -2345,8 +2345,39 @@ section#Batch-summary tbody td:nth-child(even) {
 }
 
 /****************************************
-    MPH Batch Layout End Here
+    MPH Students Batch Layout End Here
 *****************************************/
+
+
+
+
+
+/****************************************
+ MPH Talk to our alumni Layout Start Here
+*****************************************/
+
+
+
+/****************************************
+ MPH Talk to our alumni Layout End Here
+*****************************************/
+
+
+
+
+/*************************************************
+ MPH student life and community Layout Start Here
+**************************************************/
+
+
+
+
+
+/*************************************************
+ MPH student life and community Layout Start Here
+**************************************************/
+
+
 
 
 

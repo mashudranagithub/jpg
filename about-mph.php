@@ -1,6 +1,6 @@
 <?php include('partials/header.php'); ?>
 
-<section id="About-page-banner" class="mph-about-page" style="background-image: url('vendor/images/about/Dinner-party.jpg');">
+<section id="Page-banner" class="mph-about-page" style="background-image: url('vendor/images/about/Dinner-party.jpg');">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
