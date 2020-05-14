@@ -109,7 +109,7 @@
                                                         </ul>
                                                     </li>
                                                     <li><a href="#">Career</a></li>
-                                                    <li><a href="#">FAQs</a></li>
+                                                    <li><a href="mph-faq.php">FAQs</a></li>
                                                     <li><a href="#">Contact Us</a></li>
                                                 </ul>
                                             </li>
