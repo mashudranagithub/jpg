@@ -2364,7 +2364,7 @@ section#Batch-summary tbody td:nth-child(even) {
 
 .page-heading h2 {
     color: #fff;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 2px;
 }
 
@@ -2394,6 +2394,97 @@ section#Batch-summary tbody td:nth-child(even) {
 
 /*************************************************
  MPH student life and community Layout Start Here
+**************************************************/
+
+
+
+/*************************************************
+ DMP Gallery page start here
+**************************************************/
+    
+    a.dmp-photo {
+        margin-bottom: 30px;
+        display: inline-block;
+    }
+
+
+/*************************************************
+ DMP Gallery page end here
+**************************************************/
+
+
+
+/*************************************************
+        DMP News & Events page start here
+**************************************************/
+
+section#Dmp-news-events {
+    padding-bottom: 50px;
+}
+    
+.single-news-event {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.news-event-image {
+    height: 400px;
+    overflow: hidden;
+}
+
+.news-event-image img {
+    min-height: 400px;
+}
+
+.news-event-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 25px;
+    background: rgba(51, 51, 51, 0.9);
+    color: #fff;
+}
+
+.news-event-info .event-date span {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.news-event-info .event-date {
+    width: 25%;
+    text-align: center;
+}
+
+.news-event-info .event-info {
+    width: 75%;
+    text-align: left;
+    padding-left: 20px;
+    border-left: 1px solid #b7b7b7;
+}
+
+.news-event-info .event-info h3 a {
+    color: #fff;
+}
+
+.news-event-info:hover .event-info h3 a {
+    color: #da6727;
+}
+
+.time-place {
+    padding-bottom: 10px;
+}
+
+.time-place p.event-time {
+    color: #da6727;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/*************************************************
+        DMP News & Events page end here
 **************************************************/
 
 
@@ -3597,12 +3688,12 @@ section#Batch-summary tbody td:nth-child(even) {
 
 
 
-/*mph about page start here*/
-.why-brac-jpg ol li {
-    margin-bottom: 20px;
-    font-size: 1.2rem !important;
-}
-/*mph about page end here*/
+    /*mph about page start here*/
+    .why-brac-jpg ol li {
+        margin-bottom: 20px;
+        font-size: 1.2rem !important;
+    }
+    /*mph about page end here*/
 
 
 

@@ -118,8 +118,8 @@
                                                 <ul class="second-dropped-menu">
                                                     <li><a href="#">Midwifery Education</a></li>
                                                     <li><a href="#">Midwifery Admission</a></li>
-                                                    <li><a href="#">Photo Gallery</a></li>
-                                                    <li><a href="#">News & Events</a></li>
+                                                    <li><a href="dmp-gallery.php">Photo Gallery</a></li>
+                                                    <li><a href="dmp-news&events.php">News & Events</a></li>
                                                     <li><a href="#">About DMP</a></li>
                                                 </ul>
                                             </li>
