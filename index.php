@@ -138,7 +138,7 @@
     <!-- About Us Section End Here -->
 
     <!-- Education Section Start Here -->
-    <section id="Education" class="d-flex align-items-center">
+    <section id="Education" class="d-flex align-items-center gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -403,7 +403,7 @@
     </section><!-- Advocacy Section End Here -->
 
     <!-- Publication Section Start Here -->
-    <section id="Publication" class="d-flex justify-content-center align-items-center">
+    <section id="Publication" class="d-flex justify-content-center align-items-center gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -499,7 +499,7 @@
 
 
     <!-- Library Section Start Here -->
-    <section id="Library" class="d-flex align-items-center">
+    <section id="Library" class="d-flex align-items-center gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -669,7 +669,7 @@
 
 
     <!-- Subscription Section Start Here -->
-    <section id="Subscription" class="d-flex align-items-center">
+    <section id="Subscription" class="d-flex align-items-center gray">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 animated wow fadeInLeft">
