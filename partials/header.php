@@ -118,7 +118,7 @@
                                                 <ul class="second-dropped-menu">
                                                     <li><a href="about-dmp.php">About DMP</a></li>
                                                     <li><a href="#">Midwifery Education</a></li>
-                                                    <li><a href="#">Midwifery Admission</a></li>
+                                                    <li><a href="dmp-admission.php">Midwifery Admission</a></li>
                                                     <li><a href="dmp-gallery.php">Photo Gallery</a></li>
                                                     <li><a href="dmp-news&events.php">News & Events</a></li>
                                                     <li><a href="vendor/files/DMP_Brochure_English.pdf" target="_blank">DMP Brochure</a></li>
