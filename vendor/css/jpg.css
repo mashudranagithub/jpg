@@ -2523,6 +2523,20 @@ section.full-info-part ul li {
     line-height: 30px;
 }
 
+.info-part-text h4 {
+    margin-top: 30px;
+    font-size: 1.2rem;
+    color: #da6727;
+}
+
+.info-part-text h4 a {
+    color: #27aae1;
+}
+
+.info-part-text h4 a:hover  {
+    color: #802988;
+}
+
 /*************************************************
         DMP About page end here
 **************************************************/
@@ -2539,6 +2553,7 @@ section.full-info-part ul li {
 /*************************************************
         DMP Admission page end here
 **************************************************/
+
 
 
 

@@ -97,9 +97,9 @@
                                                 <a href="about-mph.php">Master of Public Health</a>
                                                 <ul class="second-dropped-menu">
                                                     <li><a href="about-mph.php">Overview</a></li>
-                                                    <li><a href="#">MPH Admission</a></li>
+                                                    <li><a href="mph-admission.php">MPH Admission</a></li>
                                                     <li><a href="mph-curriculm.php">MPH Curriculum</a></li>
-                                                    <li><a href="#">Tution & Scholarship</a></li>
+                                                    <li><a href="tution-scholarship.php">Tution & Scholarship</a></li>
                                                     <li class="no-pad"><a href="#">Be a Student</a>
                                                         <ul class="third-dropdown-menu">
                                                             <li><a href="mph-faculty.php">Meet our Faculty</a></li>
@@ -108,13 +108,12 @@
                                                             <li><a href="student-life.php">Student Life & Community</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="#">Career</a></li>
                                                     <li><a href="mph-faq.php">FAQs</a></li>
                                                     <li><a href="#">Contact Us</a></li>
                                                 </ul>
                                             </li>
                                             <li class="second-drop-menu">
-                                                <a href="#">Diploma in Midwifery</a>
+                                                <a href="about-dmp.php">Diploma in Midwifery</a>
                                                 <ul class="second-dropped-menu">
                                                     <li><a href="about-dmp.php">About DMP</a></li>
                                                     <li><a href="dmp-education.php">Midwifery Education</a></li>
@@ -149,7 +148,7 @@
                                             </li>
                                             <li><a href="#">Research Projects</a></li>
                                             <li><a href="#">Publications & Journals</a></li>
-                                            <li><a href="#">Onlice Resources-RED</a></li>
+                                            <li><a href="#">Online Resources-RED</a></li>
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu advocacy-color">
