@@ -104,7 +104,7 @@
                                                         <ul class="third-dropdown-menu">
                                                             <li><a href="mph-faculty.php">Meet our Faculty</a></li>
                                                             <li><a href="mph-student.php">Meet our Students</a></li>
-                                                            <li><a href="#">Talk to our Alumni</a></li>
+                                                            <li><a href="mph-alumni.php">Talk to our Alumni</a></li>
                                                             <li><a href="student-life.php">Student Life & Community</a></li>
                                                         </ul>
                                                     </li>

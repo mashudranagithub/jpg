@@ -2557,6 +2557,66 @@ section.full-info-part ul li {
 
 
 
+/*************************************************
+        MPH Alumni Page Start here
+**************************************************/
+
+section#MPH-alumni {
+    padding-bottom: 50px;
+}
+
+.left-sidebar-link ul li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left-sidebar-link {
+    background: #f6f6f6;
+    padding: 20px;
+}
+
+.left-sidebar-link ul li ul {
+    padding-left: 10px;
+    border-left: 1px solid #ddd;
+    margin-left: 20px;
+}
+
+.left-sidebar-link ul li {
+    line-height: 30px;
+}
+
+.left-sidebar-link ul li a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #6d6d6d;
+}
+
+.left-sidebar-link ul {
+    margin-top: 10px;
+}
+
+.left-sidebar-link h4 a {
+    color: #da6727;
+}
+
+.left-sidebar-link ul li a:hover {
+    color: #da6727;
+}
+
+
+.single-batch-link {
+    margin-bottom: 15px;
+}
+
+.single-batch-link p {
+    font-size: 1.2rem;
+}
+
+
+/*************************************************
+        MPH Alumni Page End here
+**************************************************/
+
 
 
 
