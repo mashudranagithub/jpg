@@ -1752,6 +1752,7 @@ section#Page-banner .about-us-text {
 
 section#Page-banner .about-us-text h3 {
     color: #fff;
+    padding-right: 20px;
 }
 
 section#About-page-promo {
@@ -1983,7 +1984,8 @@ table.employee-table td a {
 /**************************************
     MPH About Page Layout start Here
 ***************************************/
-section#Page-banner.mph-about-page {
+section#Page-banner.mph-about-page,
+section#Page-banner.training-about-page {
     min-height: 650px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2605,7 +2607,9 @@ section#MPH-alumni {
 
 
 .single-batch-link {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
 }
 
 .single-batch-link p {
@@ -2619,6 +2623,76 @@ section#MPH-alumni {
 
 
 
+
+
+
+/*************************************************
+        Upcoming Training Page Start here
+**************************************************/
+
+.starting-date {
+    padding: 15px;
+    width: 15%;
+    text-align: center;
+}
+
+.single-training p {
+    margin: 0px !important;
+}
+
+.starting-date span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: block;
+}
+
+.single-training .short-info {
+    border-left: 1px solid #ddd;
+    padding: 15px 25px;
+}
+
+.single-training {
+    background: #f6f6f6;
+    margin-bottom: 15px;
+}
+
+.single-training .short-info a {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.single-training .short-info p.training-days {
+    color: #da6727;
+    font-weight: 700;
+}
+
+.single-training .short-info p.instructor {
+    color: #333;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 5px !important;
+}
+
+.jpg-pagination {
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.jpg-pagination nav ul.pagination {
+    margin: 0;
+}
+
+.jpg-pagination nav ul.pagination li {
+    list-style: none;
+    margin-left: 0px;
+}
+
+
+
+/*************************************************
+        Upcoming Training Page End here
+**************************************************/
 
 
 

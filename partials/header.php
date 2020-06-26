@@ -126,11 +126,11 @@
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu training-color">
-                                        <a href="#">Training</a>
+                                        <a href="about-training.php">Training</a>
                                         <ul class="first-dropped-menu">
-                                            <li><a href="#">About</a></li>
-                                            <li><a href="#">Upcoming</a></li>
-                                            <li><a href="#">Previous</a></li>
+                                            <li><a href="about-training.php">About</a></li>
+                                            <li><a href="training-upcoming.php">Upcoming</a></li>
+                                            <li><a href="training-previous.php">Previous</a></li>
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu research-color">
