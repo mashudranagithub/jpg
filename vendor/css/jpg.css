@@ -2627,8 +2627,12 @@ section#MPH-alumni {
 
 
 /*************************************************
-        Upcoming Training Page Start here
+             Training Pages Start here
 **************************************************/
+
+section#Page-banner.training-about-page::before {
+    background: #38948d;
+}
 
 .starting-date {
     padding: 15px;
@@ -2691,11 +2695,45 @@ section#MPH-alumni {
 
 
 /*************************************************
-        Upcoming Training Page End here
+            Training Pages End here
 **************************************************/
 
 
 
+
+
+
+
+/*************************************************
+        Advocacy about page start here
+**************************************************/
+
+section#Page-banner.advocacy-about-page::before {
+    background: #802988;
+}
+
+section#Page-banner.advocacy-about-page {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+section#Page-banner.advocacy-about-page a.btn.btn-jpg {
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 0px 15px;
+}
+
+section#Page-banner.advocacy-about-page a.btn.btn-jpg:hover {
+    background: #fff;
+    color: #802988;
+}
+
+
+
+/*************************************************
+        Advocacy about page End here
+**************************************************/
 
 
 

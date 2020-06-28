@@ -154,7 +154,7 @@
                                     <li class="first-drop-menu advocacy-color">
                                         <a href="#">Advocacy</a>
                                         <ul class="first-dropped-menu">
-                                            <li><a href="#">About</a></li>
+                                            <li><a href="about-advocacy.php">About</a></li>
                                             <li><a href="#">Events</a></li>
                                             <li><a href="#">Resource Material</a></li>
                                         </ul>
