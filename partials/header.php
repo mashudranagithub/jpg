@@ -152,10 +152,10 @@
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu advocacy-color">
-                                        <a href="#">Advocacy</a>
+                                        <a href="about-advocacy.php">Advocacy</a>
                                         <ul class="first-dropped-menu">
                                             <li><a href="about-advocacy.php">About</a></li>
-                                            <li><a href="#">Events</a></li>
+                                            <li><a href="events.php">Events</a></li>
                                             <li><a href="#">Resource Material</a></li>
                                         </ul>
                                     </li>

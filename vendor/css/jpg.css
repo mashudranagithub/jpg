@@ -2368,7 +2368,7 @@ section#Batch-summary tbody td:nth-child(even) {
 .page-heading h2 {
     color: #151f25;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 #Faq-page {
@@ -2738,6 +2738,40 @@ section#Page-banner.advocacy-about-page a.btn.btn-jpg:hover {
 
 
 
+
+
+
+
+/*************************************************
+        Advocacy Events page Start here
+**************************************************/
+
+
+
+section#Events .event-image {
+    overflow: hidden;
+}
+
+section#Events .event-image a img {
+    height: 180px;
+    width: auto;
+}
+
+section#Events .single-advocacy-event {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+#Events .single-advocacy-event p.event-date {
+    margin-bottom: 10px;
+}
+
+
+/*************************************************
+        Advocacy Events page End here
+**************************************************/
 
 
 
