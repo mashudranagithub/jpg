@@ -137,16 +137,16 @@
                                         <a href="#">Research</a>
                                         <ul class="first-dropped-menu">
                                             <li class="second-drop-menu research">
-                                                <a href="#">Centre of Excellence</a>
+                                                <a href="research-centre-cgsrhr.php">Centre of Excellence</a>
                                                 <ul class="second-dropped-menu research">
-                                                    <li><a href="#">Centre of Excellence for Gender, Sexual and Reproductive Health and Rights</a></li>
-                                                    <li><a href="#">Centre of Excellence for Health Systems and Universal Health Coverage</a></li>
-                                                    <li><a href="#">Centre of Excellence for Urban Equity and Health</a></li>
-                                                    <li><a href="#">Centre of Excellence for Science of Implementation and Scale-Up</a></li>
-                                                    <li><a href="#">Centre for Non-Communicable Diseases and Nutrition</a></li>
+                                                    <li><a href="research-centre-cgsrhr.php">Centre of Excellence for Gender, Sexual and Reproductive Health and Rights</a></li>
+                                                    <li><a href="research-centre-uhc.php">Centre of Excellence for Health Systems and Universal Health Coverage</a></li>
+                                                    <li><a href="research-centre-cueh.php">Centre of Excellence for Urban Equity and Health</a></li>
+                                                    <li><a href="research-centre-sisu.php">Centre of Excellence for Science of Implementation and Scale-Up</a></li>
+                                                    <li><a href="research-centre-cncdn.php">Centre for Non-Communicable Diseases and Nutrition</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">Research Projects</a></li>
+                                            <li><a href="research-projects.php">Research Projects</a></li>
                                             <li><a href="#">Publications & Journals</a></li>
                                             <li><a href="#">Online Resources-RED</a></li>
                                         </ul>

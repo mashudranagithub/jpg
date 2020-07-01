@@ -393,7 +393,7 @@ $('button.navbar-toggler').click(function(){
         navText:['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
         navDots:false,
         lazyLoad:true,
-        center:true,
+        center:false,
         responsive:{
             0:{
                 items:1,

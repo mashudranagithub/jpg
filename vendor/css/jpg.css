@@ -2776,6 +2776,77 @@ section#Events .single-advocacy-event {
 
 
 
+/*************************************************
+        Centre Layout Start here
+**************************************************/
+
+
+section#Centre-banner img {
+    min-width: 100%;
+}
+
+/*************************************************
+        Centre Layout End here
+**************************************************/
+
+
+
+
+
+
+/*****************************************************
+            Research Projects Start Here
+******************************************************/
+
+section#Research-projects {
+    padding-bottom: 50px;
+}
+
+.single-project {
+    background: #f6f6f6;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #da6727;
+}
+
+.projects-list h3 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    color: #da6727;
+}
+
+.sidebar-centre-link ul.nav-pills li {
+    display: block !important;
+    text-align: left;
+    background: #f6f6f6;
+    margin-bottom: 10px;
+}
+
+.sidebar-centre-link ul.nav-pills {
+    display: unset;
+}
+
+.sidebar-centre-link ul.nav-pills li a h4 {
+    margin: 0;
+}
+
+.sidebar-centre-link ul.nav-pills li a {
+    padding: 15px 20px;
+}
+
+.sidebar-centre-link ul.nav-pills li a.nav-link.active {
+    background: #da6727;
+}
+
+.sidebar-centre-link ul.nav-pills li a.nav-link.active h4 {
+    color: #fff;
+}
+
+/*****************************************************
+            Research Projects End Here
+******************************************************/
 
 
 
