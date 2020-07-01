@@ -31,9 +31,18 @@
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-end">
                         <ul class="topbar-menu">
-                            <li><a href="javascript:void(0)">Blog</a></li>
+                            <li><a href="http://library.bracu.ac.bd/" target="_blank">Ayesha Abed Library</a></li>
                             <li><a href="javascript:void(0)">Newsletter</a></li>
-                            <li><a href="javascript:void(0)">JPGSPH Brochure</a></li>
+                            <li class="first-drop-menu"><a href="javascript:void(0)">Publications</a>
+                                <ul class="first-dropped-menu last-dropdown">
+                                    <li><a href="javascript:void(0)">Brochures</a></li>
+                                    <li><a href="javascript:void(0)">FSNSP Report</a></li>
+                                    <li><a href="javascript:void(0)">Monographs</a></li>
+                                    <li><a href="javascript:void(0)">Reports</a></li>
+                                    <li><a href="javascript:void(0)">Peer Reviewed Publications</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="javascript:void(0)">Blog</a></li>
                             <li class="first-drop-menu"><a href="javascript:void(0)">Career</a>
                                 <ul class="first-dropped-menu last-dropdown">
                                     <li><a href="javascript:void(0)">Internship</a></li>
@@ -109,7 +118,6 @@
                                                         </ul>
                                                     </li>
                                                     <li><a href="mph-faq.php">FAQs</a></li>
-                                                    <li><a href="#">Contact Us</a></li>
                                                 </ul>
                                             </li>
                                             <li class="second-drop-menu">
@@ -147,8 +155,8 @@
                                                 </ul>
                                             </li>
                                             <li><a href="research-projects.php">Research Projects</a></li>
-                                            <li><a href="#">Publications & Journals</a></li>
-                                            <li><a href="#">Online Resources-RED</a></li>
+                                            <li><a href="#">Journal</a></li>
+                                            <li><a href="http://dspace.bracu.ac.bd/xmlui/handle/10361/12837" target="_blank">Online Resources-RED</a></li>
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu advocacy-color">
@@ -156,7 +164,6 @@
                                         <ul class="first-dropped-menu">
                                             <li><a href="about-advocacy.php">About</a></li>
                                             <li><a href="events.php">Events</a></li>
-                                            <li><a href="#">Resource Material</a></li>
                                         </ul>
                                     </li>
                                 </ul>

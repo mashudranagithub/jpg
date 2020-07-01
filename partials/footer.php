@@ -78,19 +78,17 @@
                                 <li><a href="javascript:void(0);">Events</a></li>
                                 <li><a href="javascript:void(0);">Publications</a></li>
                                 <li><a href="javascript:void(0);">Newsletter</a></li>
-                                <li><a href="javascript:void(0);">Blog</a></li>
-                                <li><a href="javascript:void(0);">Video</a></li>
                             </ul>
                         </div>
                         <div class="single-footer-menu">
                             <h3>Connect</h3>
                             <ul>
-                                <li><a href="javascript:void(0);">News</a></li>
-                                <li><a href="javascript:void(0);">Events</a></li>
-                                <li><a href="javascript:void(0);">Publications</a></li>
-                                <li><a href="javascript:void(0);">Topics</a></li>
-                                <li><a href="javascript:void(0);">Global Health</a></li>
-                                <li><a href="javascript:void(0);">Student Voices</a></li>
+                                <li><a href="javascript:void(0);">Contact Us</a></li>
+                                <li><a href="http://library.bracu.ac.bd/" target="_blank">Ayesha Abed Library</a></li>
+                                <li><a href="javascript:void(0)">Blog</a></li>
+                                <li><a href="javascript:void(0)">Newsletter</a></li>
+                                <li><a href="javascript:void(0)">JPGSPH Brochure</a></li>
+                                <li><a href="javascript:void(0)">Employment</a></li>
                             </ul>
                         </div>
                     </div>
