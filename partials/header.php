@@ -42,7 +42,7 @@
                                     <li><a href="javascript:void(0)">Peer Reviewed Publications</a></li>
                                 </ul>
                             </li>
-                            <li><a href="javascript:void(0)">Blog</a></li>
+                            <li><a href="blogs.php">Blog</a></li>
                             <li class="first-drop-menu"><a href="javascript:void(0)">Career</a>
                                 <ul class="first-dropped-menu last-dropdown">
                                     <li><a href="javascript:void(0)">Internship</a></li>

@@ -2886,11 +2886,71 @@ a.journal-link:hover {
 
 
 
+/*****************************************************
+                    Blogs Start Here
+******************************************************/
+
+
+section#Blogs {
+    padding: 50px 0;
+}
+
+.single-blog {
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.single-blog-image {
+    position: relative;
+    max-height: 240px;
+    overflow: hidden;
+}
+
+.single-blog-image .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #da6727;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.single-blog-image .date span.publish-date {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.single-blog-info {
+    padding: 15px 20px;
+}
+
+.single-blog-info a {
+    color: #6b6b6b;
+    font-weight: 700;
+}
+
+.single-blog:hover .single-blog-info a {
+    color: #da6727;
+}
+
+.single-blog-info a.know-more {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.single-blog-info p.blog-meta {
+    margin-bottom: 10px;
+}
+
+.single-blog-info h3 {
+    margin-bottom: 10px;
+}
 
 
 
-
-
+/*****************************************************
+                    Blogs End Here
+******************************************************/
 
 
 
