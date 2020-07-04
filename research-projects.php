@@ -196,28 +196,3 @@
 
 
 <?php include('partials/footer.php') ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-			<div class="col-md-12">
-				<div class="regions-all-content">
-
-
-					
-					
-
-				</div>
-			</div>
-		</div>

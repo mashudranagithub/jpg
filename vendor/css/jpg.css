@@ -2852,6 +2852,36 @@ section#Research-projects {
 
 
 
+/*****************************************************
+            Research Journal Start Here
+******************************************************/
+
+section#Research-journals {
+    padding: 80px 0 50px;
+}
+
+a.journal-link {
+    display: block;
+    text-align: center;
+    background: #27aae1;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 4px;
+}
+
+a.journal-link:hover {
+    background: #da6727;
+}
+
+
+
+/*****************************************************
+            Research Journal End Here
+******************************************************/
+
+
 
 
 

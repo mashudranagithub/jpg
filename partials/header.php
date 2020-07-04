@@ -155,7 +155,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href="research-projects.php">Research Projects</a></li>
-                                            <li><a href="#">Journal</a></li>
+                                            <li><a href="research-journal.php">Journal</a></li>
                                             <li><a href="http://dspace.bracu.ac.bd/xmlui/handle/10361/12837" target="_blank">Online Resources-RED</a></li>
                                         </ul>
                                     </li>
