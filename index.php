@@ -166,7 +166,7 @@
                 <div class="col-md-12 wow animated slideInRight">
                     <div class="education-course">
                         <div class="course-image small-device">
-                            <a href="jacascript:void(0)">
+                            <a href="about-dmp.php">
                                 <img src="vendor/images/education/Midwife.jpg" alt="Education Course Image">
                             </a>
                         </div>
@@ -174,10 +174,10 @@
                             <h3>Diploma in Midwifery</h3>
                             <p>The Government of Bangladesh is taking the lead to set standards in midwifery education and regulation and has created posts for midwives in public facilities. It also has invested tremendously in faculty development to bring midwifery in Bangladesh towards and academic level, based on international standards.</p>
                             <p>Bachelor in Midwifery graduates will be positioned to practice autonomously in midwife-led centers providing evidence-based, respectful woman-centered care and will be involved in practical and theoretical education of the Diploma midwifery programme meeting the strong need to expand the midwifery faculty in Bangladesh.</p>
-                            <a href="javascript:void(0)" class="btn btn-jpg">Learn More</a>
+                            <a href="about-dmp.php" class="btn btn-jpg">Learn More</a>
                         </div>
                         <div class="course-image large-device">
-                            <a href="jacascript:void(0)">
+                            <a href="about-dmp.php">
                                 <img src="vendor/images/education/Midwife.jpg" alt="Education Course Image">
                             </a>
                         </div>
@@ -195,7 +195,7 @@
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="section-heading">
-                        <h2>Training <a href="#" class="btn btn-archive">All Trainings</a></h2>
+                        <h2>Training <a href="about-training.php" class="btn btn-archive">All Trainings</a></h2>
                         <p>To create innovative public health leaders & solutions through experimental Education</p>
                     </div>
                 </div>
@@ -272,27 +272,27 @@
                 <div class="col-auto">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                           <li class="nav-item animated wow fadeInDown">
-                            <a class="nav-link" id="cgsrhr-tab" href="single-centre.php" target="_blank">
+                            <a class="nav-link" id="cgsrhr-tab" href="research-centre-cgsrhr.php" target="_blank">
                                 <img src="vendor/images/research/white_logos/1. CGSRHR white.png" alt="Centre white version logo">
                             </a>
                           </li>
                           <li class="nav-item animated wow fadeInDown delay-02s">
-                            <a class="nav-link" id="uhc-tab" href="single-centre-uhc.php" target="_blank">
+                            <a class="nav-link" id="uhc-tab" href="research-centre-uhc.php" target="_blank">
                                 <img src="vendor/images/research/white_logos/2. CoEHSUHC white.png" alt="Centre white version logo">
                             </a>
                           </li>
                           <li class="nav-item animated wow fadeInDown delay-04s">
-                            <a class="nav-link" id="cueh-tab" href="single-centre-cueh.php" target="_blank">
+                            <a class="nav-link" id="cueh-tab" href="research-centre-cueh.php" target="_blank">
                                 <img src="vendor/images/research/white_logos/3. CUEH white.png" alt="Centre white version logo">
                             </a>
                           </li>
                           <li class="nav-item animated wow fadeInDown delay-08s">
-                            <a class="nav-link" id="sisu-tab" href="single-centre-sisu.php" target="_blank">
+                            <a class="nav-link" id="sisu-tab" href="research-centre-sisu.php" target="_blank">
                                 <img src="vendor/images/research/white_logos/4. CoESISU white.png" alt="Centre white version logo">
                             </a>
                           </li>
                           <li class="nav-item animated wow fadeInDown delay-1s">
-                            <a class="nav-link" id="cncdn-tab" href="single-centre-cncdn.php" target="_blank">
+                            <a class="nav-link" id="cncdn-tab" href="research-centre-cncdn.php" target="_blank">
                                 <img src="vendor/images/research/white_logos/5. CNCDN white.png" alt="Centre white version logo">
                             </a>
                           </li>
@@ -309,40 +309,90 @@
                     <div class="tab-pane fadeIn show" id="cgsrhr" role="tabpanel" aria-labelledby="cgsrhr-tab">
                         <h4>Centre of Excellence for Gender, Sexual and Reproductive Health and Rights (CGSRHR)</h4>
                         <p>The Centre of Excellence for Gender, Sexual and Reproductive Health and Rights was set up in 2008. The Centre’s work focuses on research, policy, advocacy and training activities in the areas of gender, sexual and ...</p>
-                        <a href="single-centre.php" class="btn btn-jpg mt-4">Learn More</a>
+                        <a href="research-centre-cgsrhr.php" class="btn btn-jpg mt-4">Learn More</a>
                     </div>
                     <div class="tab-pane fadeIn" id="uhc" role="tabpanel" aria-labelledby="uhc-tab">
                         <h4>Centre of Excellence for Health Systems and Universal Health Coverage (CoE-HS&UHC)</h4>
                         <p>The Centre of Excellence for Health Systems and Universal Health Coverage was established in 2011 with the support of the Rockefeller Foundation. Working with key partners in the government, private ...</p>
-                        <a href="single-centre-uhc.php" class="btn btn-jpg mt-4">Learn More</a>
+                        <a href="research-centre-uhc.php" class="btn btn-jpg mt-4">Learn More</a>
                     </div>
                     <div class="tab-pane fadeIn" id="cueh" role="tabpanel" aria-labelledby="cueh-tab">
                         <h4>Centre of Excellence for Urban Equity and Health (CUEH)</h4>
                         <p>Established in 2013, the Centre for Urban Health and Equity focuses on inter-sectoral research, training, policy and results-based action. It is focused on health equity challenges of the urban poor, with a particular ...</p>
-                        <a href="single-centre-cueh.php" class="btn btn-jpg mt-4">Learn More</a>
+                        <a href="research-centre-cueh.php" class="btn btn-jpg mt-4">Learn More</a>
                     </div>
                     <div class="tab-pane fadeIn" id="sisu" role="tabpanel" aria-labelledby="sisu-tab">
                         <h4>Centre of Excellence for Science of Implementation and Scale-Up (CoE-SISU)</h4>
                         <p>Formed in 2016 and established in collaboration with BRAC JPGSPH and UNICEF, the Centre aims to bridge the gaps and address the issues that will allow for successful scaling up and implementation of interventions. ...</p>
-                        <a href="single-centre-sisu.php" class="btn btn-jpg mt-4">Learn More</a>
+                        <a href="research-centre-sisu.php" class="btn btn-jpg mt-4">Learn More</a>
                     </div>
                     <div class="tab-pane fadeIn" id="cncdn" role="tabpanel" aria-labelledby="cncdn-tab">
                         <h4>Centre of Excellence for Non-Communicable Diseases and Nutrition (CNCDN)</h4>
                         <p>Established in 2017, CNCDN aims to reduce mortality and complications related to non-communicable diseases (NCDs) and malnutrition in Bangladesh through prevention, treatment and control. The specific objectives are ...</p>
-                        <a href="single-centre-cncdn.php" class="btn btn-jpg mt-4">Learn More</a>
+                        <a href="research-centre-cncdn.php" class="btn btn-jpg mt-4">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section><!-- Research Section End Here -->
 
-    <!-- Advocacy Section Start Here -->
-    <section id="Advocacy" class="d-flex align-items-center">
+    <!-- Publication Section Start Here -->
+    <section id="Publication" class="d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <div class="section-heading">
-                        <h2>Advocacy <a href="#" class="btn btn-archive">All Advocacy Events</a></h2>
+                        <h2> Publication <a href="peer-reviewed-publications.php" class="btn btn-archive">All Publications</a></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Publication Slider -->
+                    <div class="owl-carousel publication-slider">
+                        <div class="single-publication-slide">
+                            <a href="https://www.tandfonline.com/doi/full/10.1080/14681811.2019.1707651" target="_blank">
+                                <img src="vendor/images/publications/experiencing.jpg" alt="Publication Image">
+                            </a>
+                        </div>
+                        <div class="single-publication-slide">
+                            <a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0895-5" target="_blank">
+                                <img src="vendor/images/publications/using-research.jpg" alt="Publication Image">
+                            </a>
+                        </div>
+                        <div class="single-publication-slide">
+                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S2213398420300221" target="_blank">
+                                <img src="vendor/images/publications/factors.jpg" alt="Publication Image">
+                            </a>
+                        </div>
+                        <div class="single-publication-slide">
+                            <a href="https://bmjopen.bmj.com/content/10/2/e034321" target="_blank">
+                                <img src="vendor/images/publications/diferences.jpg" alt="Publication Image">
+                            </a>
+                        </div>
+                        <div class="single-publication-slide">
+                            <a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-8196-9" target="_blank">
+                                <img src="vendor/images/publications/we-struggle.jpg" alt="Publication Image">
+                            </a>
+                        </div>
+                        <div class="single-publication-slide">
+                            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227947" target="_blank">
+                                <img src="vendor/images/publications/tackling.jpg" alt="Publication Image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- Publication Section End Here -->
+
+    <!-- Advocacy Section Start Here -->
+    <section id="Advocacy" class="d-flex align-items-center gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-heading">
+                        <h2>Advocacy <a href="events.php" class="btn btn-archive">All Advocacy Events</a></h2>
                     </div>
                 </div>
             </div>
@@ -350,7 +400,7 @@
                 <div class="col-md-6 animated wow fadeInLeft">
                     <div class="single-advocacy-event big">
                         <div class="event-image">
-                            <a href="javascript:void(0)">
+                            <a href="javascript:void(0);">
                                 <img src="vendor/images/advocacy/Digital-sister-concern_1.jpg" alt="Advocacy Events Image">
                             </a>
                         </div>
@@ -401,59 +451,6 @@
             </div>
         </div>
     </section><!-- Advocacy Section End Here -->
-
-    <!-- Publication Section Start Here -->
-    <section id="Publication" class="d-flex justify-content-center align-items-center gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="section-heading">
-                        <h2> Publication <a href="#" class="btn btn-archive">All Publications</a></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Publication Slider -->
-                    <div class="owl-carousel publication-slider">
-                        <div class="single-publication-slide">
-                            <a href="https://www.tandfonline.com/doi/full/10.1080/14681811.2019.1707651" target="_blank">
-                                <img src="vendor/images/publications/experiencing.jpg" alt="Publication Image">
-                            </a>
-                        </div>
-                        <div class="single-publication-slide">
-                            <a href="https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-019-0895-5" target="_blank">
-                                <img src="vendor/images/publications/using-research.jpg" alt="Publication Image">
-                            </a>
-                        </div>
-                        <div class="single-publication-slide">
-                            <a href="https://www.sciencedirect.com/science/article/abs/pii/S2213398420300221" target="_blank">
-                                <img src="vendor/images/publications/factors.jpg" alt="Publication Image">
-                            </a>
-                        </div>
-                        <div class="single-publication-slide">
-                            <a href="https://bmjopen.bmj.com/content/10/2/e034321" target="_blank">
-                                <img src="vendor/images/publications/diferences.jpg" alt="Publication Image">
-                            </a>
-                        </div>
-                        <div class="single-publication-slide">
-                            <a href="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-020-8196-9" target="_blank">
-                                <img src="vendor/images/publications/we-struggle.jpg" alt="Publication Image">
-                            </a>
-                        </div>
-                        <div class="single-publication-slide">
-                            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0227947" target="_blank">
-                                <img src="vendor/images/publications/tackling.jpg" alt="Publication Image">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!-- Publication Section End Here -->
-
-
-
 
 
     <!-- Newsletter, Blog & Video Section Start Here -->
@@ -610,7 +607,7 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="section-heading">
-                            <h2> Photo Gallery <a href="#" class="btn btn-archive">All Photos</a></h2>
+                            <h2> Photo Gallery <a href="javascript:void(0);" class="btn btn-archive">All Photos</a></h2>
                         </div>
                     </div>
                 </div>

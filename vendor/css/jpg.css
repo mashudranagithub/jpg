@@ -1293,9 +1293,9 @@ section#Advocacy .section-heading a.btn.btn-archive:hover {
     margin-top: 0px;
 }
 
-.single-advocacy-event.big .event-intro {
+/*.single-advocacy-event.big .event-intro {
     padding-left: 0;
-}
+}*/
 
 .homepage-events-list .event-intro {
     padding-top: 0px;
@@ -1313,6 +1313,11 @@ section#Advocacy .section-heading a.btn.btn-archive:hover {
 
 section#Publication{
     min-height: 90vh;
+}
+
+.single-publication-slide {
+    border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 
 .owl-carousel.publication-slider .owl-dots {
@@ -2531,6 +2536,13 @@ section.full-info-part ul li {
     color: #da6727;
 }
 
+.info-part-text .short-info h4 {
+    margin: 0;
+    padding-bottom: 15px;
+    line-height: 2rem;
+    font-size: 1.3rem;
+}
+
 .info-part-text h4 a {
     color: #27aae1;
 }
@@ -2652,7 +2664,7 @@ section#Page-banner.training-about-page::before {
 
 .single-training .short-info {
     border-left: 1px solid #ddd;
-    padding: 15px 25px;
+    padding: 20px 25px;
 }
 
 .single-training {
@@ -2956,7 +2968,36 @@ section#Blogs {
 
 
 
+/*****************************************************
+                Research Centres Start Here
+******************************************************/
 
+section#Page-banner.research-centres-about-page {
+    background-position: top right 12%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.research-centres-about-page a.btn.btn-jpg {
+    padding: 0px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.info-part-text.research-centre-list ul li {
+    padding-left: 10px;
+}
+
+.info-part-text.research-centre-list ul li p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*****************************************************
+                Research Centres End Here
+******************************************************/
 
 
 

@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <!-- Avoid Browser Cache code start here -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- Avoid Browser Cache code end here -->
+
     <title>BRAC James P Grant School of Public Health</title>
     <link rel="icon" href="vendor/images/logo/favicon.ico">
 
@@ -33,13 +39,12 @@
                         <ul class="topbar-menu">
                             <li><a href="http://library.bracu.ac.bd/" target="_blank">Ayesha Abed Library</a></li>
                             <li><a href="javascript:void(0)">Newsletter</a></li>
-                            <li class="first-drop-menu"><a href="javascript:void(0)">Publications</a>
+                            <li class="first-drop-menu"><a href="javascript:void(0)">Resource Material</a>
                                 <ul class="first-dropped-menu last-dropdown">
                                     <li><a href="javascript:void(0)">Brochures</a></li>
                                     <li><a href="javascript:void(0)">FSNSP Report</a></li>
                                     <li><a href="javascript:void(0)">Monographs</a></li>
                                     <li><a href="javascript:void(0)">Reports</a></li>
-                                    <li><a href="javascript:void(0)">Peer Reviewed Publications</a></li>
                                 </ul>
                             </li>
                             <li><a href="blogs.php">Blog</a></li>
@@ -91,16 +96,17 @@
                             <div class="collapse navbar-collapse" id="navbarResponsive">
                                 <ul class="navbar-nav ml-auto">
                                     <li class="first-drop-menu">
-                                        <a href="#">About</a>
+                                        <a href="about-school.php">About</a>
                                         <ul class="first-dropped-menu">
                                             <li><a href="about-school.php">About The School</a></li>
                                             <li><a href="advisory-board.php">Advisory Board</a></li>
                                             <li><a href="academic-links.php">Academic Links</a></li>
                                             <li><a href="jpgsph-staffs.php">JPGSPH Staffs</a></li>
+                                            <li><a href="https://covid-bracjpgsph.org/" target="_blank">COVID - 19</a></li>
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu education-color">
-                                        <a href="#">Education</a>
+                                        <a href="about-mph.php">Education</a>
                                         <ul class="first-dropped-menu">
                                             <li class="second-drop-menu">
                                                 <a href="about-mph.php">Master of Public Health</a>
@@ -142,21 +148,23 @@
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu research-color">
-                                        <a href="#">Research</a>
+                                        <a href="research-centres.php">Research</a>
                                         <ul class="first-dropped-menu">
                                             <li class="second-drop-menu research">
-                                                <a href="research-centre-cgsrhr.php">Centre of Excellence</a>
+                                                <a href="research-centres.php">Centre of Excellence</a>
                                                 <ul class="second-dropped-menu research">
-                                                    <li><a href="research-centre-cgsrhr.php">Centre of Excellence for Gender, Sexual and Reproductive Health and Rights</a></li>
-                                                    <li><a href="research-centre-uhc.php">Centre of Excellence for Health Systems and Universal Health Coverage</a></li>
-                                                    <li><a href="research-centre-cueh.php">Centre of Excellence for Urban Equity and Health</a></li>
-                                                    <li><a href="research-centre-sisu.php">Centre of Excellence for Science of Implementation and Scale-Up</a></li>
-                                                    <li><a href="research-centre-cncdn.php">Centre for Non-Communicable Diseases and Nutrition</a></li>
+                                                    <li><a href="research-centre-cgsrhr.php">Gender, Sexual and Reproductive Health and Rights</a></li>
+                                                    <li><a href="research-centre-uhc.php">Health Systems and Universal Health Coverage</a></li>
+                                                    <li><a href="research-centre-cueh.php">Urban Equity and Health</a></li>
+                                                    <li><a href="research-centre-sisu.php">Science of Implementation and Scale-Up</a></li>
+                                                    <li><a href="research-centre-cncdn.php">Non-Communicable Diseases and Nutrition</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="research-projects.php">Research Projects</a></li>
                                             <li><a href="research-journal.php">Journal</a></li>
-                                            <li><a href="http://dspace.bracu.ac.bd/xmlui/handle/10361/12837" target="_blank">Online Resources-RED</a></li>
+                                            <li><a href="peer-reviewed-publications.php">Peer Reviewed Publications</a></li>
+                                            <li><a href="http://dspace.bracu.ac.bd/xmlui/handle/10361/12837" target="_blank">Resource Archive (RED)</a></li>
+                                            <li><a href="https://covid-bracjpgsph.org/" target="_blank">COVID - 19</a></li>
                                         </ul>
                                     </li>
                                     <li class="first-drop-menu advocacy-color">

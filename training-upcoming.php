@@ -17,7 +17,8 @@
 							<p><span>15</span> June, 2020</p>
 						</div>
 						<div class="short-info">
-							<a href="javascript:void(0)">Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</a>
+							<!-- <a href="javascript:void(0)">Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</a> -->
+							<h4>Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</h4>
 							<p class="training-days">July 15 - 17, 2020</p>
 							<p class="instructor">Instructor: John Doe</p>		
 						</div>
@@ -28,7 +29,7 @@
 							<p><span>15</span> June, 2020</p>
 						</div>
 						<div class="short-info">
-							<a href="javascript:void(0)">Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</a>
+							<h4>Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</h4>
 							<p class="training-days">July 15 - 17, 2020</p>
 							<p class="instructor">Instructor: John Doe</p>		
 						</div>
@@ -39,7 +40,7 @@
 							<p><span>15</span> June, 2020</p>
 						</div>
 						<div class="short-info">
-							<a href="javascript:void(0)">Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</a>
+							<h4>Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</h4>
 							<p class="training-days">July 15 - 17, 2020</p>
 							<p class="instructor">Instructor: John Doe</p>		
 						</div>
@@ -50,7 +51,7 @@
 							<p><span>15</span> June, 2020</p>
 						</div>
 						<div class="short-info">
-							<a href="javascript:void(0)">Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</a>
+							<h4>Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</h4>
 							<p class="training-days">July 15 - 17, 2020</p>
 							<p class="instructor">Instructor: John Doe</p>		
 						</div>
@@ -61,7 +62,7 @@
 							<p><span>15</span> June, 2020</p>
 						</div>
 						<div class="short-info">
-							<a href="javascript:void(0)">Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</a>
+							<h4>Short Course on Economic Evaluation: Skill Development On Cost-Effectiveness And Cost Benefit Analysis In Health Care (2019)</h4>
 							<p class="training-days">July 15 - 17, 2020</p>
 							<p class="instructor">Instructor: John Doe</p>		
 						</div>
