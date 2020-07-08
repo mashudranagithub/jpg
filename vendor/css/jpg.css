@@ -2868,11 +2868,11 @@ section#Research-projects {
             Research Journal Start Here
 ******************************************************/
 
-section#Research-journals {
+section#Pdf-files {
     padding: 80px 0 50px;
 }
 
-a.journal-link {
+a.pdf-link {
     display: block;
     text-align: center;
     background: #27aae1;
@@ -2883,7 +2883,7 @@ a.journal-link {
     border-radius: 4px;
 }
 
-a.journal-link:hover {
+a.pdf-link:hover {
     background: #da6727;
 }
 
