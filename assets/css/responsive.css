@@ -1,0 +1,122 @@
+@media only screen and (max-width: 768px) {
+
+	ul.top-menu li a {
+    font-size: 10px;
+    padding: 3px;
+margin: 0;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+	.header-main nav.navbar.navbar-expand-lg.navbar-light {
+	    justify-content: flex-end;
+	    padding: 15px 0 15px;
+	    border-top: 1px solid #ddd;
+	    margin-top: 15px;
+	}
+
+	.header-main ul.navbar-nav.ml-auto>li.nav-item.dropdown>a.nav-link {
+    line-height: 40px;
+}
+
+ul.navbar-nav.ml-auto>li.nav-item>a.nav-link {
+    line-height: 50px;
+}
+
+a.dropdown-item.nav-link {}
+
+.header-main ul.navbar-nav.ml-auto {
+    margin-top: 15px;
+}
+
+.navbar-nav .dropdown-menu {
+    display: none !important;
+}
+
+li.etra::after {
+    position: unset;
+}
+
+.header-main.sticky {
+    /*background: rgba(0, 0, 0, 0.5);*/
+}
+
+
+
+
+
+
+
+#Slider,
+#Slider .slide.slick-slide {
+    height: auto !important;
+    max-height: unset !important;
+}
+
+.slider-text p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.slider-text h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#Slider .slick-dots li button {
+	display: none;
+}
+
+
+
+
+
+
+
+.single-promo {
+	margin-bottom: 15px;
+}
+
+.latest-link p.text-right, .latest-link p.text-right a.text-right {
+    padding: 0px;
+    text-align: left !important;
+    margin-top: 15px;
+}
+
+.latest-link a.text-right::after {
+    right: -15px;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+.education-section-slider {
+    position: unset;
+}
+
+.education-slider {
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+section#Advocacy .section-info {
+	margin: 0;
+}
+
+
+
+
+
+
+}
